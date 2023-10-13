@@ -92,54 +92,6 @@ export interface TimelineItem {
   title: string;
   content: JSX.Element;
 }
-
-/**
- * Testimonial section
- */
-export interface TestimonialSection {
-  imageSrc?: string | StaticImageData;
-  testimonials: Testimonial[];
-}
-
-export interface Testimonial {
-  image?: string;
-  name: string;
-  text: string;
-}
-
-/**
- * Contact section
- */
-export interface ContactSection {
-  headerText?: string;
-  description: string;
-  items: ContactItem[];
-}
-
-export const ContactType = {
-  Email: 'Email',
-  Phone: 'Phone',
-  Location: 'Location',
-  Github: 'Github',
-  LinkedIn: 'LinkedIn',
-  Facebook: 'Facebook',
-  Twitter: 'Twitter',
-  Instagram: 'Instagram',
-} as const;
-
-export type ContactType = (typeof ContactType)[keyof typeof ContactType];
-
-export interface ContactItem {
-  type: ContactType;
-  text: string;
-  href?: string;
-}
-
-export interface ContactValue {
-  Icon: FC<IconProps> | ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
-  srLabel: string;
-}
-
 /**
  * Social items
  */

@@ -9,18 +9,15 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+
+import heroImage1 from '../images/newYorkBackground.webp';
+import heroImage from '../images/BDSBackground.webp';
+import heroImage3 from '../images/colemanBackground.webp';
+
+
+import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
+import kartProject from '../images/portfolio/kartProject.jpg';
+
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -57,26 +54,24 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 /**
  * Hero section
  */
+
+
 export const heroData: Hero = {
   imageSrc: heroImage,
   name: `Hi, I'm Tyler, it's nice to meet you!`,
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Victoria based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Instant Domains</strong> helping build a modern, mobile-first, domain
-        registrar and site builder.
+        As a soon to be graduate of the University of Alabama with my Masters in Computer Science, I am looking for new opportunities as a Software Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Vancouver Island</strong>.
+        I have previous experience as a full stack web developer with Marsh McLennan. In my studies I have worked as a researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
       </p>
     </>
   ),
   actions: [
     {
-      href: '/assets/resume.pdf',
+      href: '/files/resume.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -94,9 +89,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `A graduate student at the University of Alabama, where I spent time studying software security, cybersecurity, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
   aboutItems: [
     {label: 'Location', text: 'Tuscaloosa, AL', Icon: MapPinIcon},
     {label: 'Interests', text: 'Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development', Icon: SparklesIcon},
@@ -151,18 +144,18 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
+    title: 'Efficient Tester Project',
+    description: 'Created a web application for faster COVID-19 tests that helped sciencetists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
+    url: 'https://ceias.nau.edu/capstone/projects/CS/2021/EfficientTest-F20/',
+    image: wellPlateImage,
   },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage2,
+   {
+    title: 'Crimson Autonomous Kart',
+    description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms.',
+    url: '',
+    image: kartProject,
   },
-  {
+  /* {
     title: 'Project title 3',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
@@ -215,7 +208,7 @@ export const portfolioItems: PortfolioItem[] = [
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
     image: porfolioImage11,
-  },
+  }, */
 ];
 
 /**
@@ -226,13 +219,13 @@ export const education: TimelineItem[] = [
     date: 'August 2022 - May 2024',
     location: 'University of Alabama',
     title: 'Masters of Science Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>During my time at the University of Alabama I spent my time working with organizations such as A.</p>,
   },
   {
     date: 'August 2017 - May 2021',
     location: 'Northern Arizona University',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter.</p>,
   },
 ];
 
@@ -244,7 +237,7 @@ export const experience: TimelineItem[] = [
     content: (      
         <ul>
           <li>- Built and maintain full stack web based applications using TypeScript, Angular, and Tailwind CSS</li>
-          <li>- Wrote unite tests using JUnit to maintain code coverage, with modern tools like DataDog</li>
+          <li>- Wrote unit tests using JUnit to maintain code coverage, with modern tools like DataDog</li>
           <li>- Developed scripts in Python and C used in the CI/CD pipeline build and deployment process</li>
           <li>- Led a team initiative to implement modern web practices that were in agreement with Web Accessibility</li>
           <li>- Created and reviewed pull requests using BitBucket, maintaining team code standards and practices</li>
@@ -254,14 +247,15 @@ export const experience: TimelineItem[] = [
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'January 2020 - December 2020',
+    location: 'NAU SICCS Lab | Flagstaff, AZ',
+    title: 'Research Intern',
     content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+      <ul>
+      <li>- Developed interactive chatbots using IBM Watson artificial intelligence tools to respond to tourism questions questions in Flagstaff</li>
+      <li>- Creation of a website that was used to host chatbots using PHP, HTML, and JavaScript</li>
+      <li>- Wrote Python scripts used in task automation, natural language processing, and data analysis</li>
+    </ul>
     ),
   },
 ];
