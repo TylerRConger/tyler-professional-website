@@ -10,9 +10,9 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 
-import heroImage1 from '../images/newYorkBackground.webp';
+//import heroImage1 from '../images/newYorkBackground.webp';
 import heroImage from '../images/BDSBackground.webp';
-import heroImage3 from '../images/colemanBackground.webp';
+//import heroImage3 from '../images/colemanBackground.webp';
 
 
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
@@ -71,9 +71,9 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/files/resume.pdf',
+      href: '/resume.pdf',
       text: 'Resume',
-      primary: true,
+      primary: false,
       Icon: ArrowDownTrayIcon,
     },
     {
