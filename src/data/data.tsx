@@ -9,18 +9,14 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-
 //import heroImage1 from '../images/newYorkBackground.webp';
 import heroImage from '../images/BDSBackground.webp';
-//import heroImage3 from '../images/colemanBackground.webp';
-
-
-import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
-import kartProjectImage from '../images/portfolio/kartProject.jpg';
 import chatBotImage from '../images/portfolio/chatBot.jpg'
-import networkImage from '../images/portfolio/networkingStrength.jpg'
+import kartProjectImage from '../images/portfolio/kartProject.jpg';
 import MLSelfDrivingImage from '../images/portfolio/MLselfDriving.jpg'
-
+import networkImage from '../images/portfolio/networkingStrength.jpg'
+//import heroImage3 from '../images/colemanBackground.webp';
+import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
