@@ -1,6 +1,6 @@
 {
   "homepage": "http://TylerRConger.github.io/tyler-professional-website/",
-  "name": "react-resume-template",
+  "name": "tyler-professional-website",
   "version": "2.0.0",
   "private": true,
   "scripts": {
@@ -26,7 +26,8 @@
     "react-dom": "^18.2.0",
     "react-pdf": "^7.5.0",
     "react-router-dom": "^6.16.0",
-    "ts-pattern": "^5.0.4"
+    "ts-pattern": "^5.0.4",
+    "gh-pages": "^6.0.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.12",
