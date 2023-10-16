@@ -16,7 +16,10 @@ import heroImage from '../images/BDSBackground.webp';
 
 
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
-import kartProject from '../images/portfolio/kartProject.jpg';
+import kartProjectImage from '../images/portfolio/kartProject.jpg';
+import chatBotImage from '../images/portfolio/chatBot.jpg'
+import networkImage from '../images/portfolio/networkingStrength.jpg'
+import MLSelfDrivingImage from '../images/portfolio/MLselfDriving.jpg'
 
 import profilepic from '../images/profilepic.jpg';
 import {
@@ -71,7 +74,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: '/resume.pdf',
+      href: '/Tyler Conger Technical Resume.pdf',
       text: 'Resume',
       primary: false,
       Icon: ArrowDownTrayIcon,
@@ -153,27 +156,27 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Crimson Autonomous Kart',
     description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms.',
     url: '',
-    image: kartProject,
+    image: kartProjectImage,
+  },
+  {
+    title: 'Chatbot Poster',
+    description: 'Give a short description of your project here.',
+    url: '/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
+    image: chatBotImage,
+  },
+   {
+    title: 'Network Stength Project',
+    description: 'Give a short description of your project here.',
+    url: '',
+    image: networkImage,
+  },
+   {
+    title: 'Survey of Machine Learning in Image Processing',
+    description: 'Give a short description of your project here.',
+    url: '',
+    image: MLSelfDrivingImage,
   },
   /* {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
     title: 'Project title 6',
     description: 'Give a short description of your project here.',
     url: 'https://reactresume.com',
