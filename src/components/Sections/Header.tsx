@@ -70,7 +70,7 @@ const MobileNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}
       <>
         <button
           aria-label="Menu Button"
-          className="fixed right-2 top-2 z-40 rounded-md bg-red-500 p-2 ring-offset-gray-800/60 hover:bg-red-400 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 sm:hidden"
+          className="fixed right-2 top-2 z-40 rounded-md bg-red-500 p-2 ring-offset-gray-800/60 hover:bg-red-500 focus:outline-none focus:ring-0 focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2 sm:hidden"
           onClick={toggleOpen}>
           <Bars3BottomRightIcon className="h-8 w-8 text-white" />
           <span className="sr-only">Open sidebar</span>
