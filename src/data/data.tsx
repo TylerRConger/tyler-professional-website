@@ -9,12 +9,15 @@ import {
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
+
 //import heroImage1 from '../images/newYorkBackground.webp';
 import heroImage from '../images/BDSBackground.webp';
 import chatBotImage from '../images/portfolio/chatBot.jpg'
 import kartProjectImage from '../images/portfolio/kartProject.jpg';
 import MLSelfDrivingImage from '../images/portfolio/MLselfDriving.jpg'
 import networkImage from '../images/portfolio/networkingStrength.jpg'
+import operatingSysImage from '../images/portfolio/operatingSystem.jpg'
+
 //import heroImage3 from '../images/colemanBackground.webp';
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
@@ -156,28 +159,29 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Chatbot Poster',
-    description: 'Give a short description of your project here.',
+    description: 'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
     url: '/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
     image: chatBotImage,
   },
    {
     title: 'Network Stength Project',
-    description: 'Give a short description of your project here.',
-    url: '',
+    description: 'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
+    url: '/Effects of Common Building Construction Materials on Signal.pdf',
     image: networkImage,
   },
    {
     title: 'Survey of Machine Learning in Image Processing',
-    description: 'Give a short description of your project here.',
+    description: 'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
     url: '',
     image: MLSelfDrivingImage,
   },
-  /* {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
+  {
+    title: 'Operating System Simulator Project',
+    description: 'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project is available upon request and project specification is attached.',
+    url: '/OS Simulator Project.pdf',
+    image: operatingSysImage,
   },
+  /* 
   {
     title: 'Project title 7',
     description: 'Give a short description of your project here.',
