@@ -104,38 +104,88 @@ export const aboutData: About = {
 export const skills: SkillGroup[] = [
 
   {
-    name: 'Frontend development',
+    name: 'Development Tools',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Java',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'C',
+        level: 7,
+      },
+      {
+        name: 'TypeScript',
         level: 6,
       },
+      ],
+  },
+  {
+    name: 'Frameworks and Libraries',
+    skills: [
+      {
+        name: 'ROS',
+        level: 7,
+      },
+      {
+        name: 'React JS',
+        level: 9,
+      },
+      {
+        name: 'Tailwind CSS',
+        level: 6,
+      },
+      {
+        name: 'Angular',
+        level: 7,
+      }
     ],
   },
   {
-    name: 'Backend development',
-    skills: [
+    name: 'Tools and Platforms',
+    skills:[
       {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
+        name: 'Docker',
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'JIRA / Agile Methodology',
+        level: 10,
       },
-    ],
+      {
+        name: 'Command Line / Scripting',
+        level: 7,
+      },
+      {
+        name: 'Git',
+        level: 7,
+      }
+    ]
+  },
+  {
+    name: 'Soft Skills',
+    skills:[
+      {
+        name: 'Leadership',
+        level: 9,
+      },
+      {
+        name: 'Public Speaking',
+        level: 8,
+      },
+      {
+        name: 'Technical Writing',
+        level: 8,
+      },
+      {
+        name: 'Humor',
+        level: 2,
+      }
+    ]
   }
 ];
 
@@ -151,32 +201,32 @@ export const portfolioItems: PortfolioItem[] = [
   },
    {
     title: 'Crimson Autonomous Kart',
-    description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms.',
+    description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms. Project is available upon request',
     url: '',
     image: kartProjectImage,
   },
   {
     title: 'Chatbot Poster',
     description: 'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
-    url: '/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
+    url: 'tyler-professional-website/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
     image: chatBotImage,
   },
    {
     title: 'Network Stength Project',
     description: 'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
-    url: '/Effects of Common Building Construction Materials on Signal.pdf',
+    url: 'tyler-professional-website/Effects of Common Building Construction Materials on Signal.pdf',
     image: networkImage,
   },
    {
     title: 'Survey of Machine Learning in Image Processing',
     description: 'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
-    url: '',
+    url: 'tyler-professional-website/Machine Learning in Image Processing Survey.pdf',
     image: MLSelfDrivingImage,
   },
   {
     title: 'Operating System Simulator Project',
-    description: 'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project is available upon request and project specification is attached.',
-    url: '/OS Simulator Project.pdf',
+    description: 'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project and design philosphy is availabe upon request',
+    url: '',
     image: operatingSysImage,
   },
   /* 
@@ -220,13 +270,13 @@ export const education: TimelineItem[] = [
     date: 'August 2022 - May 2024',
     location: 'University of Alabama',
     title: 'Masters of Science Computer Science',
-    content: <p>During my time at the University of Alabama I spent my time working with organizations such as A.</p>,
+    content: <p>During my time at the University of Alabama I spent my time working with organizations such as ACM as well as working on a fully autonomous Kart project to compete in the Prudue autonomous kart challenge.</p>,
   },
   {
     date: 'August 2017 - May 2021',
     location: 'Northern Arizona University',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter.</p>,
+    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science students. I was also appointd to a specialty leadership training program, where outstanding leaders at NAU took monthly professional classes to learn to become better leaders. </p>,
   },
 ];
 
@@ -256,6 +306,17 @@ export const experience: TimelineItem[] = [
       <li>- Developed interactive chatbots using IBM Watson artificial intelligence tools to respond to tourism questions questions in Flagstaff</li>
       <li>- Creation of a website that was used to host chatbots using PHP, HTML, and JavaScript</li>
       <li>- Wrote Python scripts used in task automation, natural language processing, and data analysis</li>
+    </ul>
+    ),
+  },
+  {
+    date: 'August 2019 - December 2020',
+    location: 'NAU Computer Science Lab TA | Flagstaff, AZ',
+    title: 'Teaching Assistant',
+    content: (
+    <ul>
+      <li>- Administered material in a lab based classroom setting</li>
+      <li>- Held a weekly office hours where students would ask questions pretaining to data structures, MATLAB, and Computer Science 2 questions</li>
     </ul>
     ),
   },
