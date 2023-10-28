@@ -104,38 +104,88 @@ export const aboutData: About = {
 export const skills: SkillGroup[] = [
 
   {
-    name: 'Frontend development',
+    name: 'Development Tools',
     skills: [
       {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'Java',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'C',
+        level: 7,
+      },
+      {
+        name: 'TypeScript',
         level: 6,
       },
+      ],
+  },
+  {
+    name: 'Frameworks and Libraries',
+    skills: [
+      {
+        name: 'ROS',
+        level: 7,
+      },
+      {
+        name: 'React JS',
+        level: 9,
+      },
+      {
+        name: 'Tailwind CSS',
+        level: 6,
+      },
+      {
+        name: 'Angular',
+        level: 7,
+      }
     ],
   },
   {
-    name: 'Backend development',
-    skills: [
+    name: 'Tools and Platforms',
+    skills:[
       {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
+        name: 'Docker',
         level: 5,
       },
       {
-        name: 'Golang',
-        level: 4,
+        name: 'JIRA / Agile Methodology',
+        level: 10,
       },
-    ],
+      {
+        name: 'Command Line / Scripting',
+        level: 7,
+      },
+      {
+        name: 'Git',
+        level: 7,
+      }
+    ]
+  },
+  {
+    name: 'Soft Skills',
+    skills:[
+      {
+        name: 'Leadership',
+        level: 9,
+      },
+      {
+        name: 'Public Speaking',
+        level: 8,
+      },
+      {
+        name: 'Technical Writing',
+        level: 8,
+      },
+      {
+        name: 'Humor',
+        level: 2,
+      }
+    ]
   }
 ];
 
@@ -220,13 +270,13 @@ export const education: TimelineItem[] = [
     date: 'August 2022 - May 2024',
     location: 'University of Alabama',
     title: 'Masters of Science Computer Science',
-    content: <p>During my time at the University of Alabama I spent my time working with organizations such as A.</p>,
+    content: <p>During my time at the University of Alabama I spent my time working with organizations such as ACM as well as working on a fully autonomous Kart project to compete in the Prudue autonomous kart challenge.</p>,
   },
   {
     date: 'August 2017 - May 2021',
     location: 'Northern Arizona University',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter.</p>,
+    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science students. I was also appointd to a specialty leadership training program, where outstanding leaders at NAU took monthly professional classes to learn to become better leaders. </p>,
   },
 ];
 
@@ -256,6 +306,17 @@ export const experience: TimelineItem[] = [
       <li>- Developed interactive chatbots using IBM Watson artificial intelligence tools to respond to tourism questions questions in Flagstaff</li>
       <li>- Creation of a website that was used to host chatbots using PHP, HTML, and JavaScript</li>
       <li>- Wrote Python scripts used in task automation, natural language processing, and data analysis</li>
+    </ul>
+    ),
+  },
+  {
+    date: 'August 2019 - December 2020',
+    location: 'NAU Computer Science Lab TA | Flagstaff, AZ',
+    title: 'Teaching Assistant',
+    content: (
+    <ul>
+      <li>- Administered material in a lab based classroom setting</li>
+      <li>- Held a weekly office hours where students would ask questions pretaining to data structures, MATLAB, and Computer Science 2 questions</li>
     </ul>
     ),
   },
