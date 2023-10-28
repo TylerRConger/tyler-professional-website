@@ -151,32 +151,32 @@ export const portfolioItems: PortfolioItem[] = [
   },
    {
     title: 'Crimson Autonomous Kart',
-    description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms.',
+    description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms. Project is available upon request',
     url: '',
     image: kartProjectImage,
   },
   {
     title: 'Chatbot Poster',
     description: 'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
-    url: '/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
+    url: 'tyler-professional-website/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
     image: chatBotImage,
   },
    {
     title: 'Network Stength Project',
     description: 'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
-    url: '/Effects of Common Building Construction Materials on Signal.pdf',
+    url: 'tyler-professional-website/Effects of Common Building Construction Materials on Signal.pdf',
     image: networkImage,
   },
    {
     title: 'Survey of Machine Learning in Image Processing',
     description: 'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
-    url: '',
+    url: 'tyler-professional-website/Machine Learning in Image Processing Survey.pdf',
     image: MLSelfDrivingImage,
   },
   {
     title: 'Operating System Simulator Project',
-    description: 'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project is available upon request and project specification is attached.',
-    url: '/OS Simulator Project.pdf',
+    description: 'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project and design philosphy is availabe upon request',
+    url: '',
     image: operatingSysImage,
   },
   /* 
