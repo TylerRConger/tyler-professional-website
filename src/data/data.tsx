@@ -208,19 +208,19 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Chatbot Poster',
     description: 'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
-    url: '/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
+    url: 'tyler-professional-website/Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
     image: chatBotImage,
   },
    {
     title: 'Network Stength Project',
     description: 'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
-    url: '/Effects of Common Building Construction Materials on Signal.pdf',
+    url: 'https://tylerrconger.github.io/tyler-professional-website/Effects%20of%20Common%20Building%20Construction%20Materials%20on%20Signal.pdf',
     image: networkImage,
   },
    {
     title: 'Survey of Machine Learning in Image Processing',
     description: 'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
-    url: '/Machine Learning in Image Processing Survey.pdf',
+    url: 'tyler-professional-website/Machine Learning in Image Processing Survey.pdf',
     image: MLSelfDrivingImage,
   },
   {
@@ -276,7 +276,7 @@ export const education: TimelineItem[] = [
     date: 'August 2017 - May 2021',
     location: 'Northern Arizona University',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science students. I was also appointd to a specialty leadership training program, where outstanding leaders at NAU took monthly professional classes to learn to become better leaders. </p>,
+    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science students. I was also appointed to a specialty leadership training program, where outstanding leaders at NAU took monthly professional classes to learn to become better leaders. </p>,
   },
 ];
 
