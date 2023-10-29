@@ -58,6 +58,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 export const heroData: Hero = {
   imageSrc: heroImage,
+  profileImageSrc: profilepic,
   name: `Hi, I'm Tyler, it's nice to meet you!`,
   description: (
     <>
@@ -67,6 +68,7 @@ export const heroData: Hero = {
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I have previous experience as a full stack web developer with Marsh McLennan. In my studies I have worked as a researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
       </p>
+    
     </>
   ),
   actions: [
