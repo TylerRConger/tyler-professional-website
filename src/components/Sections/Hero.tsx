@@ -1,14 +1,14 @@
-import { ChevronDownIcon } from '@heroicons/react/24/outline';
+import {ChevronDownIcon} from '@heroicons/react/24/outline';
 import classNames from 'classnames';
 import Image from 'next/image';
-import React, { FC, memo } from 'react';
+import React, {FC, memo} from 'react';
 
-import { heroData, SectionId } from '../../data/data';
+import {heroData, SectionId} from '../../data/data';
 import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const { imageSrc, meetMeImage, name, description, actions } = heroData;
+  const {imageSrc, meetMeImage, name, description, actions} = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -28,7 +28,7 @@ const Hero: FC = memo(() => {
               <Image
                 alt="about-me-image"
                 className="transition-opacity opacity-0 duration-[3.5s] h-full w-full object-cover"
-                onLoadingComplete={(image) => image.classList.remove("opacity-0")}
+                onLoadingComplete={image => image.classList.remove('opacity-0')}
                 src={meetMeImage}
               />
             </div>
@@ -36,7 +36,7 @@ const Hero: FC = memo(() => {
               <Socials />
             </div>
             <div className="flex w-full justify-center gap-x-4">
-              {actions.map(({ href, text, primary, Icon }) => (
+              {actions.map(({href, text, primary, Icon}) => (
                 <a
                   className={classNames(
                     'flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 hover:border-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base',
@@ -44,7 +44,7 @@ const Hero: FC = memo(() => {
                   )}
                   href={href}
                   key={text}
-                  target='_blank'>
+                  target="_blank">
                   {text}
                   {Icon && <Icon className="h-5 w-5 text-white sm:h-6 sm:w-6" />}
                 </a>
