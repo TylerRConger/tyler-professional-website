@@ -23,9 +23,6 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   trailingSlash: false,
-  images: {
-    domains: ['images.unsplash.com', 'source.unsplash.com'],
-  },
 };
 
 module.exports = nextConfig;
