@@ -11,24 +11,16 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import heroImage1 from '../images/newYorkBackground.webp';
 import heroImage from '../images/BDSBackground.webp';
-import chatBotImage from '../images/portfolio/chatBot.jpg'
+import chatBotImage from '../images/portfolio/chatBot.jpg';
 import kartProjectImage from '../images/portfolio/kartProject.jpg';
-import MLSelfDrivingImage from '../images/portfolio/MLselfDriving.jpg'
-import networkImage from '../images/portfolio/networkingStrength.jpg'
-import operatingSysImage from '../images/portfolio/operatingSystem.jpg'
+import MLSelfDrivingImage from '../images/portfolio/MLselfDriving.jpg';
+import networkImage from '../images/portfolio/networkingStrength.jpg';
+import operatingSysImage from '../images/portfolio/operatingSystem.jpg';
 //import heroImage3 from '../images/colemanBackground.webp';
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
 import meetMePic from '../images/meetMeImage.jpg';
-import {
-  About,
-  Hero,
-  HomepageMeta,
-  PortfolioItem,
-  SkillGroup,
-  Social,
-  TimelineItem,
-} from './dataDef';
+import {About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem} from './dataDef';
 
 /**
  * Page meta data
@@ -56,7 +48,6 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
  * Hero section
  */
 
-
 export const heroData: Hero = {
   imageSrc: heroImage,
   meetMeImage: meetMePic,
@@ -64,12 +55,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        As a soon to be graduate of the University of Alabama with my Masters in Computer Science, I am looking for new opportunities as a Software Developer.
+        As a soon to be graduate of the University of Alabama with my Masters in Computer Science, I am looking for new
+        opportunities as a Software Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have previous experience as a full stack web developer with Marsh McLennan. In my studies I have worked as a researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
+        I have previous experience as a full stack web developer with Marsh McLennan. In my studies I have worked as a
+        researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
       </p>
-    
     </>
   ),
   actions: [
@@ -95,7 +87,11 @@ export const aboutData: About = {
   description: `A graduate student at the University of Alabama, where I spent time studying software security, cybersecurity, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
   aboutItems: [
     {label: 'Location', text: 'Tuscaloosa, AL', Icon: MapPinIcon},
-    {label: 'Interests', text: 'Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development', Icon: SparklesIcon},
+    {
+      label: 'Interests',
+      text: 'Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development',
+      Icon: SparklesIcon,
+    },
     {label: 'Schools', text: 'University of Alabama', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'Actively Searching for new Opportunities', Icon: BuildingOffice2Icon},
   ],
@@ -105,7 +101,6 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-
   {
     name: 'Development Tools',
     skills: [
@@ -125,7 +120,7 @@ export const skills: SkillGroup[] = [
         name: 'TypeScript',
         level: 6,
       },
-      ],
+    ],
   },
   {
     name: 'Frameworks and Libraries',
@@ -145,12 +140,12 @@ export const skills: SkillGroup[] = [
       {
         name: 'Angular',
         level: 7,
-      }
+      },
     ],
   },
   {
     name: 'Tools and Platforms',
-    skills:[
+    skills: [
       {
         name: 'Docker',
         level: 5,
@@ -166,12 +161,12 @@ export const skills: SkillGroup[] = [
       {
         name: 'Git',
         level: 7,
-      }
-    ]
+      },
+    ],
   },
   {
     name: 'Soft Skills',
-    skills:[
+    skills: [
       {
         name: 'Leadership',
         level: 9,
@@ -187,9 +182,9 @@ export const skills: SkillGroup[] = [
       {
         name: 'Communication',
         level: 9,
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];
 
 /**
@@ -198,37 +193,43 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Efficient Tester Project',
-    description: 'Created a web application for faster COVID-19 tests that helped sciencetists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
+    description:
+      'Created a web application for faster COVID-19 tests that helped sciencetists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
     url: 'https://ceias.nau.edu/capstone/projects/CS/2021/EfficientTest-F20/',
     image: wellPlateImage,
   },
-   {
+  {
     title: 'Crimson Autonomous Kart',
-    description: 'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms. Project is available upon request',
+    description:
+      'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms. Project is available upon request',
     url: '',
     image: kartProjectImage,
   },
   {
     title: 'Chatbot Poster',
-    description: 'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
+    description:
+      'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
     url: 'Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
     image: chatBotImage,
   },
-   {
+  {
     title: 'Network Stength Project',
-    description: 'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
+    description:
+      'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
     url: 'Effects%20of%20Common%20Building%20Construction%20Materials%20on%20Signal.pdf',
     image: networkImage,
   },
-   {
+  {
     title: 'Survey of Machine Learning in Image Processing',
-    description: 'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
+    description:
+      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
     url: 'Machine Learning in Image Processing Survey.pdf',
     image: MLSelfDrivingImage,
   },
   {
     title: 'Operating System Simulator Project',
-    description: 'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project and design philosphy is availabe upon request',
+    description:
+      'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project and design philosphy is availabe upon request',
     url: '',
     image: operatingSysImage,
   },
@@ -273,13 +274,25 @@ export const education: TimelineItem[] = [
     date: 'August 2022 - May 2024',
     location: 'University of Alabama',
     title: 'Masters of Science Computer Science',
-    content: <p>During my time at the University of Alabama I spent my time working with organizations such as ACM as well as working on a fully autonomous Kart project to compete in the Prudue autonomous kart challenge.</p>,
+    content: (
+      <p>
+        During my time at the University of Alabama I spent my time working with organizations such as ACM as well as
+        working on a fully autonomous Kart project to compete in the Prudue autonomous kart challenge.
+      </p>
+    ),
   },
   {
     date: 'August 2017 - May 2021',
     location: 'Northern Arizona University',
     title: 'Bachelors of Science in Computer Science',
-    content: <p>During my time at Northern Arizona University, I spent time as the President of the local Association of Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science students. I was also appointed to a specialty leadership training program, where outstanding leaders at NAU took monthly professional classes to learn to become better leaders. </p>,
+    content: (
+      <p>
+        During my time at Northern Arizona University, I spent time as the President of the local Association of
+        Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science
+        students. I was also appointed to a specialty leadership training program, where outstanding leaders at NAU took
+        monthly professional classes to learn to become better leaders.{' '}
+      </p>
+    ),
   },
 ];
 
@@ -288,16 +301,16 @@ export const experience: TimelineItem[] = [
     date: 'July 2021 - August 2022',
     location: 'Marsh Digital | Phoenix, AZ',
     title: 'Software Developer',
-    content: (      
-        <ul>
-          <li>- Built and maintain full stack web based applications using TypeScript, Angular, and Tailwind CSS</li>
-          <li>- Wrote unit tests using JUnit to maintain code coverage, with modern tools like DataDog</li>
-          <li>- Developed scripts in Python and C used in the CI/CD pipeline build and deployment process</li>
-          <li>- Led a team initiative to implement modern web practices that were in agreement with Web Accessibility</li>
-          <li>- Created and reviewed pull requests using BitBucket, maintaining team code standards and practices</li>
-          <li>- Updated and identified various security vulnerabilities over 15 separate deployment applications</li>
-          <li>- Added and completed tasks assigned on Jira using agile methodology</li>
-        </ul>
+    content: (
+      <ul>
+        <li>- Built and maintain full stack web based applications using TypeScript, Angular, and Tailwind CSS</li>
+        <li>- Wrote unit tests using JUnit to maintain code coverage, with modern tools like DataDog</li>
+        <li>- Developed scripts in Python and C used in the CI/CD pipeline build and deployment process</li>
+        <li>- Led a team initiative to implement modern web practices that were in agreement with Web Accessibility</li>
+        <li>- Created and reviewed pull requests using BitBucket, maintaining team code standards and practices</li>
+        <li>- Updated and identified various security vulnerabilities over 15 separate deployment applications</li>
+        <li>- Added and completed tasks assigned on Jira using agile methodology</li>
+      </ul>
     ),
   },
   {
@@ -306,10 +319,13 @@ export const experience: TimelineItem[] = [
     title: 'Research Intern',
     content: (
       <ul>
-      <li>- Developed interactive chatbots using IBM Watson artificial intelligence tools to respond to tourism questions questions in Flagstaff</li>
-      <li>- Creation of a website that was used to host chatbots using PHP, HTML, and JavaScript</li>
-      <li>- Wrote Python scripts used in task automation, natural language processing, and data analysis</li>
-    </ul>
+        <li>
+          - Developed interactive chatbots using IBM Watson artificial intelligence tools to respond to tourism
+          questions questions in Flagstaff
+        </li>
+        <li>- Creation of a website that was used to host chatbots using PHP, HTML, and JavaScript</li>
+        <li>- Wrote Python scripts used in task automation, natural language processing, and data analysis</li>
+      </ul>
     ),
   },
   {
@@ -317,10 +333,13 @@ export const experience: TimelineItem[] = [
     location: 'NAU Computer Science Lab TA | Flagstaff, AZ',
     title: 'Teaching Assistant',
     content: (
-    <ul>
-      <li>- Administered material in a lab based classroom setting</li>
-      <li>- Held a weekly office hours where students would ask questions pretaining to data structures, MATLAB, and Computer Science 2 questions</li>
-    </ul>
+      <ul>
+        <li>- Administered material in a lab based classroom setting</li>
+        <li>
+          - Held a weekly office hours where students would ask questions pretaining to data structures, MATLAB, and
+          Computer Science 2 questions
+        </li>
+      </ul>
     ),
   },
 ];
@@ -331,5 +350,5 @@ export const experience: TimelineItem[] = [
 export const socialLinks: Social[] = [
   {label: 'Github', Icon: GithubIcon, href: 'https://github.com/TylerRConger'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tyler-conger/'},
-  {label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:TylerConger1998@gmail.com'}
+  {label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:TylerConger1998@gmail.com'},
 ];
