@@ -8,7 +8,7 @@ import Section from '../Layout/Section';
 import Socials from '../Socials';
 
 const Hero: FC = memo(() => {
-  const { imageSrc, profileImageSrc, name, description, actions } = heroData;
+  const { imageSrc, meetMeImage, name, description, actions } = heroData;
 
   return (
     <Section noPadding sectionId={SectionId.Hero}>
@@ -24,13 +24,12 @@ const Hero: FC = memo(() => {
           <div className="flex flex-col items-center gap-y-6 rounded-xl bg-gray-800/40 p-6 text-center shadow-lg backdrop-blur-sm">
             <h1 className="text-4xl font-bold text-white sm:text-5xl lg:text-7xl">{name}</h1>
             {description}
-            <div className="relative h-36 w-24 overflow-hidden rounded-xl md:h-36 md:w-32">
+            <div className="relative h-36 w-48 overflow-hidden rounded-xl md:h-36 md:w-48">
               <Image
                 alt="about-me-image"
-                className="transition-opacity opacity-0 duration-[2s] h-full w-full object-cover"
+                className="transition-opacity opacity-0 duration-[3.5s] h-full w-full object-cover"
                 onLoadingComplete={(image) => image.classList.remove("opacity-0")}
-                src={profileImageSrc}
-                
+                src={meetMeImage}
               />
             </div>
             <div className="flex gap-x-4 text-neutral-100">

@@ -19,6 +19,7 @@ import operatingSysImage from '../images/portfolio/operatingSystem.jpg'
 //import heroImage3 from '../images/colemanBackground.webp';
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
+import meetMePic from '../images/meetMeImage.jpg';
 import {
   About,
   Hero,
@@ -58,7 +59,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 
 export const heroData: Hero = {
   imageSrc: heroImage,
-  profileImageSrc: profilepic,
+  meetMeImage: meetMePic,
   name: `Hi, I'm Tyler, it's nice to meet you!`,
   description: (
     <>
