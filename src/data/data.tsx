@@ -165,7 +165,7 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Soft Skills',
+    name: 'Life Skills',
     skills: [
       {
         name: 'Leadership',
@@ -334,9 +334,9 @@ export const experience: TimelineItem[] = [
     title: (<p>Teaching Assistant</p>),
     content: (
       <ul>
-        <li>- Administered material in a lab based classroom setting</li>
+        <li>- Administered material in a lab-based classroom setting</li>
         <li>
-          - Held a weekly office hours where students would ask questions pretaining to data structures, MATLAB, and
+          - Held a weekly office hours where students would ask questions pertaining to data structures, MATLAB, and
           Computer Science 2 questions
         </li>
       </ul>
