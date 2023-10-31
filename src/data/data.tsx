@@ -59,7 +59,7 @@ export const heroData: Hero = {
         opportunities as a Software Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have previous experience as a full stack web developer with Marsh McLennan. In my studies I have worked as a
+        I have previous experience as a full stack web developer with Marsh McLennan, a fortune 500 company. In my studies I have worked as a
         researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
       </p>
     </>
@@ -86,14 +86,14 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `A graduate student at the University of Alabama, where I spent time studying software security, cybersecurity, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
   aboutItems: [
-    {label: 'Location', text: 'Tuscaloosa, AL', Icon: MapPinIcon},
+    {label: 'Location', text: (<p>Relocating From Tuscaloosa, AL</p>), Icon: MapPinIcon},
     {
       label: 'Interests',
-      text: 'Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development',
+      text: (<p>Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development</p>),
       Icon: SparklesIcon,
     },
-    {label: 'Schools', text: 'University of Alabama', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Actively Searching for new Opportunities', Icon: BuildingOffice2Icon},
+    {label: 'Schools', text: (<p>University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon},
+    {label: 'Employment', text: (<p>Actively Searching for new Opportunities</p>), Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -273,23 +273,23 @@ export const education: TimelineItem[] = [
   {
     date: 'August 2022 - May 2024',
     location: 'University of Alabama',
-    title: 'Masters of Science Computer Science',
+    title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Sciecne in Computer Science</a>),
     content: (
       <p>
         During my time at the University of Alabama I spent my time working with organizations such as ACM as well as
-        working on a fully autonomous Kart project to compete in the Prudue autonomous kart challenge.
+        working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
       </p>
     ),
   },
   {
     date: 'August 2017 - May 2021',
     location: 'Northern Arizona University',
-    title: 'Bachelors of Science in Computer Science',
+    title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://nau.edu/school-of-informatics-computing-and-cyber-systems/bs-computer-science/" target='_blank'>Bachelors of Science in Computer Science</a>),
     content: (
       <p>
         During my time at Northern Arizona University, I spent time as the President of the local Association of
-        Comnputing Machinery (ACM) chapter. I also spent 3 years serving as a mentor to incoming computer science
-        students. I was also appointed to a specialty leadership training program, where outstanding leaders at NAU took
+        Comnputing Machinery (ACM) chapter. I also spent 3 years serving as an academic mentor to computer science
+        students. I was also appointed to a specialty <a className="hover:underline underline-offset-4 hover:text-red-500" href='https://in.nau.edu/dean-of-students/presidential-leadership-fellows/' target='_blank'>leadership training program</a>, where outstanding leaders at NAU took
         monthly professional classes to learn to become better leaders.{' '}
       </p>
     ),
@@ -299,8 +299,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'July 2021 - August 2022',
-    location: 'Marsh Digital | Phoenix, AZ',
-    title: 'Software Developer',
+    location: 'Marsh McLennan | Phoenix, AZ',
+    title: (<p>Software Developer</p>),
     content: (
       <ul>
         <li>- Built and maintain full stack web based applications using TypeScript, Angular, and Tailwind CSS</li>
@@ -316,7 +316,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'January 2020 - December 2020',
     location: 'NAU SICCS Lab | Flagstaff, AZ',
-    title: 'Research Intern',
+    title: (<p>Research Intern</p>),
     content: (
       <ul>
         <li>
@@ -331,7 +331,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'August 2019 - December 2020',
     location: 'NAU Computer Science Lab TA | Flagstaff, AZ',
-    title: 'Teaching Assistant',
+    title: (<p>Teaching Assistant</p>),
     content: (
       <ul>
         <li>- Administered material in a lab based classroom setting</li>
