@@ -46,7 +46,7 @@ export interface About {
 
 export interface AboutItem {
   label: string;
-  text: string;
+  text: JSX.Element;
   Icon?: ForwardRefExoticComponent<Omit<SVGProps<SVGSVGElement>, 'ref'>>;
 }
 
@@ -90,7 +90,7 @@ export interface PortfolioItem {
 export interface TimelineItem {
   date: string;
   location: string;
-  title: string;
+  title: JSX.Element;
   content: JSX.Element;
 }
 /**
