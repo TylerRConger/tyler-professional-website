@@ -20,7 +20,7 @@ import operatingSysImage from '../images/portfolio/operatingSystem.jpg';
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
 import meetMePic from '../images/meetMeImage.jpg';
-import {About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem} from './dataDef';
+import { About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem } from './dataDef';
 
 /**
  * Page meta data
@@ -86,14 +86,14 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `A graduate student at the University of Alabama, where I spent time studying software security, cybersecurity, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
   aboutItems: [
-    {label: 'Location', text: (<p>Relocating From Tuscaloosa, AL</p>), Icon: MapPinIcon},
+    { label: 'Location', text: (<p>Relocating From Tuscaloosa, AL</p>), Icon: MapPinIcon },
     {
       label: 'Interests',
       text: (<p>Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development</p>),
       Icon: SparklesIcon,
     },
-    {label: 'Schools', text: (<p>University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon},
-    {label: 'Employment', text: (<p>Actively Searching for new Opportunities</p>), Icon: BuildingOffice2Icon},
+    { label: 'Schools', text: (<p>University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon },
+    { label: 'Employment', text: (<p>Actively Searching for new Opportunities</p>), Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -348,7 +348,7 @@ export const experience: TimelineItem[] = [
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/TylerRConger'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tyler-conger/'},
-  {label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:TylerConger1998@gmail.com'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/TylerRConger' },
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tyler-conger/' },
+  { label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:TylerConger1998@gmail.com' },
 ];
