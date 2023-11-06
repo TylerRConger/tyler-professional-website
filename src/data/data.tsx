@@ -273,7 +273,7 @@ export const education: TimelineItem[] = [
   {
     date: 'August 2022 - May 2024',
     location: 'University of Alabama',
-    title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Sciecne in Computer Science</a>),
+    title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Science in Computer Science</a>),
     content: (
       <p>
         During my time at the University of Alabama I spent my time working with organizations such as ACM as well as
