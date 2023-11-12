@@ -72,7 +72,7 @@ export const heroData: Hero = {
       Icon: ArrowDownTrayIcon,
     },
     {
-      href: `mailto:TylerConger1998@gmail.com`,
+      href: `mailto:Tyler-Conger@Tyler-Conger.com`,
       text: 'Contact',
       primary: false,
     },
@@ -350,5 +350,5 @@ export const experience: TimelineItem[] = [
 export const socialLinks: Social[] = [
   { label: 'Github', Icon: GithubIcon, href: 'https://github.com/TylerRConger' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tyler-conger/' },
-  { label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:TylerConger1998@gmail.com' },
+  { label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:Tyler-Conger@Tyler-Conger.com' },
 ];
