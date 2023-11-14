@@ -283,7 +283,7 @@ export const education: TimelineItem[] = [
       <br></br>
       <p className="font-semibold">Notable Courses:</p>
       <ul className="columns-2">
-        <div className="group"><li className="">Machine Learning<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible">&nbsp;this is a lot of text all together to be a long string of length</span></li></div>
+        <div className="group"><li className="">Machine Learning<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible"></span></li></div>
         <li>Autonomous Vehicles</li>
         <li>Data Science</li>
         <li>Cybersecurity</li>
