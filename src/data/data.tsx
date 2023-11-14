@@ -51,7 +51,7 @@ export type SectionId = (typeof SectionId)[keyof typeof SectionId];
 export const heroData: Hero = {
   imageSrc: heroImage,
   meetMeImage: meetMePic,
-  name: `Hi, I'm Tyler, it's nice to meet you!`,
+  name: (<div><span className="type-intro"></span><span className="type-introCont text-red-400"></span></div>),
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">

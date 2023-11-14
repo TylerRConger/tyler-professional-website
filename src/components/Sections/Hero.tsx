@@ -26,7 +26,7 @@ const Hero: FC = memo(() => {
             <div className="relative h-36 w-48 overflow-hidden rounded-xl md:h-36 md:w-48">
               <Image
                 alt="about-me-image"
-                className="transition-opacity opacity-0 duration-[3.5s] h-full w-full object-cover"
+                className="transition-opacity delay-[4000ms] opacity-0 duration-[3.5s] h-full w-full object-cover"
                 onLoadingComplete={image => image.classList.remove('opacity-0')}
                 src={meetMeImage}
               />

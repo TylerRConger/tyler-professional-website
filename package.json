@@ -13,7 +13,6 @@
     "sitemap": "yarn next-sitemap",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build"
-
   },
   "dependencies": {
     "@headlessui/react": "^1.7.16",
@@ -22,13 +21,14 @@
     "autoprefixer": "^10.4.16",
     "classnames": "^2.3.2",
     "express": "^4.18.2",
+    "gh-pages": "^6.0.0",
     "next": "^13.4.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^7.5.0",
     "react-router-dom": "^6.16.0",
-    "ts-pattern": "^5.0.4",
-    "gh-pages": "^6.0.0"
+    "tailwind-typewriter": "^1.0.1",
+    "ts-pattern": "^5.0.4"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.12",
