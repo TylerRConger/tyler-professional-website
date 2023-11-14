@@ -11,8 +11,8 @@ module.exports = {
       },
       keyframes: {
         typing: {
-          '0%, 100%': {width: '0%'},
-          '30%, 70%': {width: '100%'},
+          '0%, 100%': { width: '0%' },
+          '30%, 70%': { width: '100%' },
         },
         blink: {
           '0%': {
@@ -31,10 +31,33 @@ module.exports = {
         },
       },
       screens: {
-        touch: {raw: 'only screen and (pointer: coarse)'},
+        touch: { raw: 'only screen and (pointer: coarse)' },
       },
     },
   },
   // eslint-disable-next-line no-undef
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
+  plugins: [
+    require('@tailwindcss/forms'), require('@tailwindcss/typography'),
+    // https://github.com/mattpfeffer/tailwind-typewriter/
+    require('tailwind-typewriter')({
+      wordsets: {
+        intro: {
+          words: ["Hi, I'm Tyler, "],
+          delay: 1,
+          repeat: 0,
+          eraseSpeed: 0,
+          writeSpeed: .25,
+          caretWidth: '0px',
+        },
+        introCont: {
+          words: ["student", "programmer", "engineer", "leader"],
+          delay: 5.5,
+          repeat: -1,
+          writeSpeed: .25,
+          caretWidth: '3px',
+          caretColor: 'white'
+        }
+      }
+    }),
+  ],
 };
