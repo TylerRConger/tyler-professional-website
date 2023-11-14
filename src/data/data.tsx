@@ -275,10 +275,22 @@ export const education: TimelineItem[] = [
     location: 'University of Alabama',
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Science in Computer Science</a>),
     content: (
+      <div>
       <p>
         During my time at the University of Alabama I spent my time working with organizations such as ACM as well as
         working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
       </p>
+      <br></br>
+      <p className="font-semibold">Notable Courses:</p>
+      <ul className="columns-2">
+        <div className="group"><li className="">Machine Learning<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible">&nbsp;this is a lot of text all together to be a long string of length</span></li></div>
+        <li>Autonomous Vehicles</li>
+        <li>Data Science</li>
+        <li>Cybersecurity</li>
+        <li>Cryptography</li>
+        <li>Computer Networks</li>
+      </ul>
+      </div>
     ),
   },
   {
@@ -287,7 +299,7 @@ export const education: TimelineItem[] = [
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://nau.edu/school-of-informatics-computing-and-cyber-systems/bs-computer-science/" target='_blank'>Bachelors of Science in Computer Science</a>),
     content: (
       <p>
-        During my time at Northern Arizona University, I spent time as the President of the local Association of
+        During my time at Northern Arizona University, I spent time as the President of the local Association for
         Comnputing Machinery (ACM) chapter. I also spent 3 years serving as an academic mentor to computer science
         students. I was also appointed to a specialty <a className="hover:underline underline-offset-4 hover:text-red-500" href='https://in.nau.edu/dean-of-students/presidential-leadership-fellows/' target='_blank'>leadership training program</a>, where outstanding leaders at NAU took
         monthly professional classes to learn to become better leaders.{' '}
