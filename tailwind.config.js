@@ -35,6 +35,11 @@ module.exports = {
       },
     },
   },
+  variants: {
+    extend: {
+      visibility: ['group-hover'],
+    },
+  },
   // eslint-disable-next-line no-undef
   plugins: [
     require('@tailwindcss/forms'), require('@tailwindcss/typography'),
