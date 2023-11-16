@@ -59,7 +59,7 @@ export const heroData: Hero = {
         opportunities as a Software Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have previous experience as a full stack web developer with Marsh McLennan, a fortune 500 company. In my studies I have worked as a
+        I have previous experience as a full stack web developer with Marsh McLennan, a Fortune 500 company. In my studies I have worked as a
         researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
       </p>
     </>
