@@ -277,12 +277,12 @@ export const education: TimelineItem[] = [
     content: (
       <div>
       <p>
-        During my time at the University of Alabama I spent my time working with organizations such as ACM as well as
+        During my time at the University of Alabama I spent my time working with organizations such as the Association for Computing Machiner (ACM) as well as
         working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
       </p>
       <br></br>
-      <p className="font-semibold">Notable Courses:</p>
-      <ul className="columns-2">
+      <p className="font-bold">Notable Courses:</p>
+      <ul className="columns-2 list-disc list-inside">
         <div className="group"><li className="">Machine Learning<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible"></span></li></div>
         <li>Autonomous Vehicles</li>
         <li>Data Science</li>
@@ -298,12 +298,24 @@ export const education: TimelineItem[] = [
     location: (<p className="flex-1 text-sm font-medium italic sm:flex-none">Northern Arizona University</p>),
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://nau.edu/school-of-informatics-computing-and-cyber-systems/bs-computer-science/" target='_blank'>Bachelors of Science in Computer Science</a>),
     content: (
+      <div>
       <p>
         During my time at Northern Arizona University, I spent time as the President of the local Association for
-        Comnputing Machinery (ACM) chapter. I also spent 3 years serving as an academic mentor to computer science
+        Computing Machinery (ACM) chapter. I also spent 3 years serving as an academic mentor to computer science
         students. I was also appointed to a specialty <a className="hover:underline underline-offset-4 hover:text-red-500" href='https://in.nau.edu/dean-of-students/presidential-leadership-fellows/' target='_blank'>leadership training program</a>, where outstanding leaders at NAU took
         monthly professional classes to learn to become better leaders.{' '}
       </p>
+      <br></br>
+      <p className="font-bold">Notable Courses:</p>
+      <ul className="columns-2 list-disc list-inside">
+        <div className="group"><li className="">Data Wrangling and Analysis<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible"></span></li></div>
+        <li>Advanced Web Development</li>
+        <li>Software Engineering</li>
+        <li>Mobile App Development</li>
+        <li>Calculus III</li>
+        <li>Linear Algebra</li>
+      </ul>
+      </div>
     ),
   },
 ];
