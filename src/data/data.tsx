@@ -272,7 +272,7 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2022 - May 2024',
-    location: 'University of Alabama',
+    location: (<p className="flex-1 text-sm font-medium italic sm:flex-none">University of Alabama</p>),
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Science in Computer Science</a>),
     content: (
       <div>
@@ -295,7 +295,7 @@ export const education: TimelineItem[] = [
   },
   {
     date: 'August 2017 - May 2021',
-    location: 'Northern Arizona University',
+    location: (<p className="flex-1 text-sm font-medium italic sm:flex-none">Northern Arizona University</p>),
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://nau.edu/school-of-informatics-computing-and-cyber-systems/bs-computer-science/" target='_blank'>Bachelors of Science in Computer Science</a>),
     content: (
       <p>
@@ -311,47 +311,60 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
   {
     date: 'July 2021 - August 2022',
-    location: 'Marsh McLennan | Phoenix, AZ',
+    location: (<p>Marsh McLennan | Phoenix, AZ</p>),
     title: (<p>Software Developer</p>),
-    content: (
-      <ul>
-        <li>- Built and maintain full stack web based applications using TypeScript, Angular, and Tailwind CSS</li>
-        <li>- Wrote unit tests using JUnit to maintain code coverage, with modern tools like DataDog</li>
-        <li>- Developed scripts in Python and C used in the CI/CD pipeline build and deployment process</li>
-        <li>- Led a team initiative to implement modern web practices that were in agreement with Web Accessibility</li>
-        <li>- Created and reviewed pull requests using BitBucket, maintaining team code standards and practices</li>
-        <li>- Updated and identified various security vulnerabilities over 15 separate deployment applications</li>
-        <li>- Added and completed tasks assigned on Jira using agile methodology</li>
+    content: ( 
+    <div>
+      <ul className='list-disc'>
+        <li>Deployed 5 web based applications and maintained 15 distinct applications using TypeScript, Angular, SpringBoot, and Tailwind CSS for companies such as Amazon, Tesla, Polestar, Liberty Mutual, and others</li>
+        <li>Implemented tests using JUnit, ensuring at least 70\% code coverage while leveraging tools such as DataDog</li>
+        <li>Conceived Python scripts added CI/CD pipeline process for 3 applications using Jenkins</li>
+        <li>Spearheaded a team initiative to implement modern web practices in agreement with Web Accessibility, to meet guidelines on 10 deployment applications and all future applications with WCAG 2.0 Standards</li>
+        <li>Added and reviewed pull requests with BitBucket using Git, accomplishing daily tasks assigned through Jira and preserve and maintain code standards on a 10 member team</li>
+        <li>Identified and then fixed security vulnerabilities over 15 separate deployment applications</li>
       </ul>
+    </div>
     ),
   },
   {
     date: 'January 2020 - December 2020',
-    location: 'NAU SICCS Lab | Flagstaff, AZ',
+    location: (<p>NAU SICCS Lab | Flagstaff, AZ</p>),
     title: (<p>Research Intern</p>),
     content: (
-      <ul>
-        <li>
-          - Developed interactive chatbots using IBM Watson artificial intelligence tools to respond to tourism
-          questions questions in Flagstaff
-        </li>
-        <li>- Creation of a website that was used to host chatbots using PHP, HTML, and JavaScript</li>
-        <li>- Wrote Python scripts used in task automation, natural language processing, and data analysis</li>
+      <ul className='list-disc'>
+        <li>Designed 3 interactive chatbots using IBM Watson artificial intelligence tools with conversational flows</li>
+        <li>Implemented website powered by PHP, HTML, and JavaScript that hosted 2 chatbots interacted with by over 180 study participants to research register usage in chatbots and natural language processing</li>
+        <li>Engineered Python scripts for in task automation, natural language processing, and data analysis</li>
       </ul>
     ),
   },
   {
     date: 'August 2019 - December 2020',
-    location: 'NAU Computer Science Lab TA | Flagstaff, AZ',
+    location: (<p>NAU Computer Science Lab | Flagstaff, AZ</p>),
     title: (<p>Teaching Assistant</p>),
     content: (
-      <ul>
-        <li>- Administered material in a lab-based classroom setting</li>
-        <li>
-          - Held a weekly office hours where students would ask questions pertaining to data structures, MATLAB, and
+      <ul className='list-disc'>
+        <li>Administered lab material material in a lab-based classroom setting on a weekly basis for 3 seperate computer science lab classes</li>
+        <li>Held a weekly office hours where students would ask questions pertaining to data structures, MATLAB, and
           Computer Science 2 questions
         </li>
+        <li>Deep understanding of Data Structures and Alogrithms to grade and fully understand student projects</li>
       </ul>
+    ),
+  },
+  {
+    date: 'April 2018 - May 2021',
+    location: (<p>Peer Jacks Mentoring | Flagstaff, AZ</p>),
+    title: (<p>Peer Mentor</p>),
+    content: ( 
+    <div>
+      <ul className='list-disc'>
+        <li>Held weekly meetings with 20 out of state freshmen computer science students helping them with all aspects of college life</li>
+        <li>Organized monthly events and worked as the main contact for scheduling, planning, and follow-through</li>
+        <li>Built and maintained the Peer Jacks website including adding features to the WordPress site using PHP and HTML, including updates every month</li>
+        <li>First senior mentor within the program's 10 year span, as well as becoming CRLA level 3 certified</li>
+      </ul>
+    </div>
     ),
   },
 ];
