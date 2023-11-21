@@ -276,20 +276,23 @@ export const education: TimelineItem[] = [
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Science in Computer Science</a>),
     content: (
       <div>
-      <p>
-        During my time at the University of Alabama I spent my time working with organizations such as the Association for Computing Machiner (ACM) as well as
-        working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
-      </p>
-      <br></br>
-      <p className="font-bold">Notable Courses:</p>
-      <ul className="columns-2 list-disc list-inside">
-        <div className="group"><li className="">Machine Learning<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible"></span></li></div>
-        <li>Autonomous Vehicles</li>
-        <li>Data Science</li>
-        <li>Cybersecurity</li>
-        <li>Cryptography</li>
-        <li>Computer Networks</li>
-      </ul>
+        <p>
+          During my time at the University of Alabama I spent my time working with organizations such as the Association for Computing Machiner (ACM) as well as
+          working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
+        </p>
+        <br></br>
+        <p className="font-bold">Notable Courses:</p>
+        <ul className="columns-2 list-disc list-inside">
+          <div className="group">
+            <li className="">Machine Learning</li>
+            <span className="collapse hidden group-hover:inline group-hover:visible"></span>
+          </div>
+          <li>Autonomous Vehicles</li>
+          <li>Data Science</li>
+          <li>Cybersecurity</li>
+          <li>Cryptography</li>
+          <li>Computer Networks</li>
+        </ul>
       </div>
     ),
   },
@@ -299,22 +302,22 @@ export const education: TimelineItem[] = [
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://nau.edu/school-of-informatics-computing-and-cyber-systems/bs-computer-science/" target='_blank'>Bachelors of Science in Computer Science</a>),
     content: (
       <div>
-      <p>
-        During my time at Northern Arizona University, I spent time as the President of the local Association for
-        Computing Machinery (ACM) chapter. I also spent 3 years serving as an academic mentor to computer science
-        students. I was also appointed to a specialty <a className="hover:underline underline-offset-4 hover:text-red-500" href='https://in.nau.edu/dean-of-students/presidential-leadership-fellows/' target='_blank'>leadership training program</a>, where outstanding leaders at NAU took
-        monthly professional classes to learn to become better leaders.{' '}
-      </p>
-      <br></br>
-      <p className="font-bold">Notable Courses:</p>
-      <ul className="columns-2 list-disc list-inside">
-        <div className="group"><li className="">Data Wrangling and Analysis<span className="collapse hidden group-hover:inline group-hover:transition-all group-hover:visible"></span></li></div>
-        <li>Advanced Web Development</li>
-        <li>Software Engineering</li>
-        <li>Mobile App Development</li>
-        <li>Calculus III</li>
-        <li>Linear Algebra</li>
-      </ul>
+        <p>
+          During my time at Northern Arizona University, I spent time as the President of the local Association for
+          Computing Machinery (ACM) chapter. I also spent 3 years serving as an academic mentor to computer science
+          students. I was also appointed to a specialty <a className="hover:underline underline-offset-4 hover:text-red-500" href='https://in.nau.edu/dean-of-students/presidential-leadership-fellows/' target='_blank'>leadership training program</a>, where outstanding leaders at NAU took
+          monthly professional classes to learn to become better leaders.{' '}
+        </p>
+        <br></br>
+        <p className="font-bold">Notable Courses:</p>
+        <ul className="columns-2 list-disc list-inside">
+          <div className="group"><li className="">Data Wrangling and Analysis<span className="collapse hidden group-hover:inline group-hover:transition group-hover:ease-in-out group-hover:transition-all group-hover:visible"></span></li></div>
+          <li>Advanced Web Development</li>
+          <li>Software Engineering</li>
+          <li>Mobile App Development</li>
+          <li>Calculus III</li>
+          <li>Linear Algebra</li>
+        </ul>
       </div>
     ),
   },
@@ -325,17 +328,17 @@ export const experience: TimelineItem[] = [
     date: 'July 2021 - August 2022',
     location: (<p>Marsh McLennan | Phoenix, AZ</p>),
     title: (<p>Software Developer</p>),
-    content: ( 
-    <div>
-      <ul className='list-disc'>
-        <li>Deployed 5 web based applications and maintained 15 distinct applications using TypeScript, Angular, SpringBoot, and Tailwind CSS for companies such as Amazon, Tesla, Polestar, Liberty Mutual, and others</li>
-        <li>Implemented tests using JUnit, ensuring at least 70\% code coverage while leveraging tools such as DataDog</li>
-        <li>Conceived Python scripts added CI/CD pipeline process for 3 applications using Jenkins</li>
-        <li>Spearheaded a team initiative to implement modern web practices in agreement with Web Accessibility, to meet guidelines on 10 deployment applications and all future applications with WCAG 2.0 Standards</li>
-        <li>Added and reviewed pull requests with BitBucket using Git, accomplishing daily tasks assigned through Jira and preserve and maintain code standards on a 10 member team</li>
-        <li>Identified and then fixed security vulnerabilities over 15 separate deployment applications</li>
-      </ul>
-    </div>
+    content: (
+      <div>
+        <ul className='list-disc'>
+          <li>Deployed 5 web based applications and maintained 15 distinct applications using TypeScript, Angular, SpringBoot, and Tailwind CSS for companies such as Amazon, Tesla, Polestar, Liberty Mutual, and others</li>
+          <li>Implemented tests using JUnit, ensuring at least 70\% code coverage while leveraging tools such as DataDog</li>
+          <li>Conceived Python scripts added CI/CD pipeline process for 3 applications using Jenkins</li>
+          <li>Spearheaded a team initiative to implement modern web practices in agreement with Web Accessibility, to meet guidelines on 10 deployment applications and all future applications with WCAG 2.0 Standards</li>
+          <li>Added and reviewed pull requests with BitBucket using Git, accomplishing daily tasks assigned through Jira and preserve and maintain code standards on a 10 member team</li>
+          <li>Identified and then fixed security vulnerabilities over 15 separate deployment applications</li>
+        </ul>
+      </div>
     ),
   },
   {
@@ -368,15 +371,15 @@ export const experience: TimelineItem[] = [
     date: 'April 2018 - May 2021',
     location: (<p>Peer Jacks Mentoring | Flagstaff, AZ</p>),
     title: (<p>Peer Mentor</p>),
-    content: ( 
-    <div>
-      <ul className='list-disc'>
-        <li>Held weekly meetings with 20 out of state freshmen computer science students helping them with all aspects of college life</li>
-        <li>Organized monthly events and worked as the main contact for scheduling, planning, and follow-through</li>
-        <li>Built and maintained the Peer Jacks website including adding features to the WordPress site using PHP and HTML, including updates every month</li>
-        <li>First senior mentor within the program's 10 year span, as well as becoming CRLA level 3 certified</li>
-      </ul>
-    </div>
+    content: (
+      <div>
+        <ul className='list-disc'>
+          <li>Held weekly meetings with 20 out of state freshmen computer science students helping them with all aspects of college life</li>
+          <li>Organized monthly events and worked as the main contact for scheduling, planning, and follow-through</li>
+          <li>Built and maintained the Peer Jacks website including adding features to the WordPress site using PHP and HTML, including updates every month</li>
+          <li>First senior mentor within the program's 10 year span, as well as becoming CRLA level 3 certified</li>
+        </ul>
+      </div>
     ),
   },
 ];
