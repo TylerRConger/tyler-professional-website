@@ -284,8 +284,11 @@ export const education: TimelineItem[] = [
         <p className="font-bold">Notable Courses:</p>
         <ul className="columns-2 list-disc list-inside">
           <div className="group">
-            <li className="">Machine Learning</li>
-            <span className="collapse hidden group-hover:inline group-hover:visible"></span>
+            <li className="relative overflow-hidden group">Machine Learning
+              <span className="absolute invisible group-hover:visible transition-all duration-300 ease-in-out">
+               more stuff to make this long
+              </span>
+            </li>
           </div>
           <li>Autonomous Vehicles</li>
           <li>Data Science</li>
@@ -310,9 +313,18 @@ export const education: TimelineItem[] = [
         </p>
         <br></br>
         <p className="font-bold">Notable Courses:</p>
-        <ul className="columns-2 list-disc list-inside">
-          <div className="group"><li className="">Data Wrangling and Analysis<span className="collapse hidden group-hover:inline group-hover:transition group-hover:ease-in-out group-hover:transition-all group-hover:visible"></span></li></div>
-          <li>Advanced Web Development</li>
+        <ul className="columns-2 list-disc list-inside space-y-6">
+          <div className="bg-red-300 rounded-lg ">
+            <li className="">Data Wrangling and Analysis
+              <span id="hide"></span>
+            </li>
+          </div>
+          
+          <div className="bg-red-300 rounded-lg space-x-15 space-y-15">
+          <li>Advanced Web Development
+            <span id="hide"></span>
+          </li>
+          </div>
           <li>Software Engineering</li>
           <li>Mobile App Development</li>
           <li>Calculus III</li>
@@ -332,7 +344,7 @@ export const experience: TimelineItem[] = [
       <div>
         <ul className='list-disc'>
           <li>Deployed 5 web based applications and maintained 15 distinct applications using TypeScript, Angular, SpringBoot, and Tailwind CSS for companies such as Amazon, Tesla, Polestar, Liberty Mutual, and others</li>
-          <li>Implemented tests using JUnit, ensuring at least 70\% code coverage while leveraging tools such as DataDog</li>
+          <li>Implemented tests using JUnit, ensuring at least 70% code coverage while leveraging tools such as DataDog</li>
           <li>Conceived Python scripts added CI/CD pipeline process for 3 applications using Jenkins</li>
           <li>Spearheaded a team initiative to implement modern web practices in agreement with Web Accessibility, to meet guidelines on 10 deployment applications and all future applications with WCAG 2.0 Standards</li>
           <li>Added and reviewed pull requests with BitBucket using Git, accomplishing daily tasks assigned through Jira and preserve and maintain code standards on a 10 member team</li>
