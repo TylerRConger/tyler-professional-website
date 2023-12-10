@@ -313,14 +313,14 @@ export const education: TimelineItem[] = [
         </p>
         <br></br>
         <p className="font-bold">Notable Courses:</p>
-        <ul className="columns-2 list-disc list-inside space-y-6">
-          <div className="bg-red-300 rounded-lg ">
+        <ul className="columns-2 list-disc list-inside">
+          <div className="">
             <li className="">Data Wrangling and Analysis
               <span id="hide"></span>
             </li>
           </div>
           
-          <div className="bg-red-300 rounded-lg space-x-15 space-y-15">
+          <div className="">
           <li>Advanced Web Development
             <span id="hide"></span>
           </li>
