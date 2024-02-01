@@ -286,7 +286,6 @@ export const education: TimelineItem[] = [
           <div className="group">
             <li className="relative overflow-hidden group">Machine Learning
               <span className="absolute invisible group-hover:visible transition-all duration-300 ease-in-out">
-               more stuff to make this long
               </span>
             </li>
           </div>
