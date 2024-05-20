@@ -67,3 +67,19 @@ li:hover #hide {
   white-space: initial;
   
 }
+
+
+
+.each-slide-effect > div {
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+}
+
+.slide-container {
+  height: 100%;
+  margin: 8%;
+}
+
