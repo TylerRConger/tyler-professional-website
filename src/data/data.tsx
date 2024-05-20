@@ -342,12 +342,13 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul className='list-disc'>
-          <li>Deployed 5 web based applications and maintained 15 distinct applications using TypeScript, Angular, SpringBoot, and Tailwind CSS for companies such as Amazon, Tesla, Polestar, Liberty Mutual, and others</li>
-          <li>Implemented tests using JUnit, ensuring at least 70% code coverage while leveraging tools such as DataDog</li>
-          <li>Conceived Python scripts added CI/CD pipeline process for 3 applications using Jenkins</li>
+          <li>Developed full-stack web applications, in the insurance sector, generating millions of revenue for customers such as Tesla, Amazon, Polestar, Liberty Mutual, and others</li>
+          <li>Identified and fixed security vulnerabilities for over 1,000 libraries on multiple live applications using Snyk</li>
+          <li>Implemented unit testing for code verification and validation, leveraging tools such as DataDog and SonarQube</li>
+          <li>Wrote Python scripts for Continuous Integration/Continuous Deployment (CI/CD) pipeline with Jenkins</li>
           <li>Spearheaded a team initiative to implement modern web practices in agreement with Web Accessibility, to meet guidelines on 10 deployment applications and all future applications with WCAG 2.0 Standards</li>
-          <li>Added and reviewed pull requests with BitBucket using Git, accomplishing daily tasks assigned through Jira and preserve and maintain code standards on a 10 member team</li>
-          <li>Identified and then fixed security vulnerabilities over 15 separate deployment applications</li>
+          <li>Added and reviewed pull requests with BitBucket using Git, accomplishing daily tasks assigned through Jira and preserve and maintain code standards</li>
+          <li>In charge of identifying and then fixing security vulnerabilities over 15 separate deployment applications</li>
         </ul>
       </div>
     ),
