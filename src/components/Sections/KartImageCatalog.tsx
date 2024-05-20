@@ -5,7 +5,7 @@ import { Slide } from 'react-slideshow-image';
 
 import 'react-slideshow-image/dist/styles.css'
 
-import kartProjectImage from '/src/images/portfolio/kartProject.jpg';
+/*import kartProjectImage from '/src/images/portfolio/kartProject.jpg';
 import FrontFacing from '/src/images/kart_images/FrontFacingKart.jpg';
 import BackFacing from '/src/images/kart_images/BackFacingKart.jpg';
 import KartLab from '/src/images/kart_images/KartLab.jpg';
@@ -13,8 +13,8 @@ import SolderingStation from '/src/images/kart_images/SolderingStation.jpg';
 import VelodyneLidarBox from '/src/images/kart_images/VelodyneLidarBox.jpg';
 import WiringRedo from '/src/images/kart_images/WiringRedo.jpg';
 
-const slideImages = [kartProjectImage, FrontFacing, BackFacing, KartLab, SolderingStation, VelodyneLidarBox, WiringRedo]
-
+//const slideImages = [kartProjectImage, FrontFacing, BackFacing, KartLab, SolderingStation, VelodyneLidarBox, WiringRedo]
+*/
 const images = [
         "https://i.imgur.com/X9GBXA2.jpeg",
         "https://i.imgur.com/2U6hppb.jpeg",
