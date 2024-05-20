@@ -202,7 +202,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Crimson Autonomous Kart',
     description:
       'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms. Project is available upon request',
-    url: '',
+    url: 'Kart',
     image: kartProjectImage,
   },
   {
