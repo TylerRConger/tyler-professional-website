@@ -13,6 +13,7 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/BDSBackground.webp';
 import chatBotImage from '../images/portfolio/chatBot.jpg';
 import kartProjectImage from '../images/portfolio/kartProject.jpg';
+import wineProjectImage from '../images/portfolio/wineRobot.jpg'
 import MLSelfDrivingImage from '../images/portfolio/MLselfDriving.jpg';
 import networkImage from '../images/portfolio/networkingStrength.jpg';
 import operatingSysImage from '../images/portfolio/operatingSystem.jpg';
@@ -233,13 +234,13 @@ export const portfolioItems: PortfolioItem[] = [
     url: '',
     image: operatingSysImage,
   },
-  /* 
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
+    title: 'ML Wine Quality Predictor',
+    description: 'Project for data science class that involved utilizing machine learning to predict the qaulity of wine. Takes in various inputs about the wine such as type, acidity, etc to analyze and predict quality. ML created using tpot, scikit-learn, and joblib. Project is hosted on heroku and user interactable.',
+    url: 'https://wine-app-tyler-166b0a6d7290.herokuapp.com/',
+    image: wineProjectImage,
   },
+  /* 
   {
     title: 'Project title 8',
     description: 'Give a short description of your project here.',
