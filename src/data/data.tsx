@@ -56,7 +56,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        As a soon to be graduate of the University of Alabama with my Masters in Computer Science, I am looking for new
+        Graduate of the University of Alabama with my Masters in Computer Science, I am looking for new
         opportunities as a Software Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -70,7 +70,6 @@ export const heroData: Hero = {
       href: '/Tyler Conger Technical Resume.pdf',
       text: 'Resume',
       primary: false,
-      Icon: ArrowDownTrayIcon,
     },
     {
       href: `mailto:Tyler-Conger@Tyler-Conger.com`,
@@ -319,11 +318,11 @@ export const education: TimelineItem[] = [
               <span id="hide"></span>
             </li>
           </div>
-          
+
           <div className="">
-          <li>Advanced Web Development
-            <span id="hide"></span>
-          </li>
+            <li>Advanced Web Development
+              <span id="hide"></span>
+            </li>
           </div>
           <li>Software Engineering</li>
           <li>Mobile App Development</li>
@@ -360,9 +359,15 @@ export const experience: TimelineItem[] = [
     title: (<p>Research Intern</p>),
     content: (
       <ul className='list-disc'>
-        <li>Designed 3 interactive chatbots using IBM Watson artificial intelligence tools with conversational flows</li>
-        <li>Implemented website powered by PHP, HTML, and JavaScript that hosted 2 chatbots interacted with by over 180 study participants to research register usage in chatbots and natural language processing</li>
-        <li>Engineered Python scripts for in task automation, natural language processing, and data analysis</li>
+
+
+        <li>Designed and implemented conversational AI chatbots utilizing IBM Watson to study natural language processing (NLP) in customer service applications; collected conversation data to improve chatbot interaction</li>
+
+        <li>Conducted live and virtual studies of human-chatbot interaction to understand language usage and preference</li>
+
+        <li>Developed various Python scripts for data analysis, data automation and task automation</li>
+
+        <li>Implemented website powered by PHP, HTML, and JavaScript that hosted 2 chatbots for A/B testing. Chatbots interacted with by over 180 live study participants to research register usage and human-chatbot interaction</li>
       </ul>
     ),
   },
@@ -373,9 +378,7 @@ export const experience: TimelineItem[] = [
     content: (
       <ul className='list-disc'>
         <li>Administered lab material material in a lab-based classroom setting on a weekly basis for 3 seperate computer science lab classes</li>
-        <li>Held a weekly office hours where students would ask questions pertaining to data structures, MATLAB, and
-          Computer Science 2 questions
-        </li>
+        <li>Held a weekly office hours where students would ask questions pertaining to data structures, MATLAB, and Computer Science 2 questions </li>
         <li>Deep understanding of Data Structures and Alogrithms to grade and fully understand student projects</li>
       </ul>
     ),
