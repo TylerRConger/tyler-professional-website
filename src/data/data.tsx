@@ -85,14 +85,14 @@ export const aboutData: About = {
   profileImageSrc: profilepic,
   description: `A graduate student at the University of Alabama, where I spent time studying software security, cybersecurity, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
   aboutItems: [
-    { label: 'Location', text: (<p>Relocating From Tuscaloosa, AL</p>), Icon: MapPinIcon },
+    { label: 'Location', text: (<p>Baltimore, MD</p>), Icon: MapPinIcon },
     {
       label: 'Interests',
       text: (<p>Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development</p>),
       Icon: SparklesIcon,
     },
     { label: 'Schools', text: (<p>University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon },
-    { label: 'Employment', text: (<p>Actively Searching for new Opportunities</p>), Icon: BuildingOffice2Icon },
+    { label: 'Employment', text: (<p>Software Engineer at Textron Systems</p>), Icon: BuildingOffice2Icon },
   ],
 };
 
