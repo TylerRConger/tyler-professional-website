@@ -1,10 +1,10 @@
-import classNames from 'classnames';
+//import classNames from 'classnames';
 import Image from 'next/image';
 import { FC, memo } from 'react';
 
-import { isMobile } from '../../config';
+//import { isMobile } from '../../config';
 import { kartProjectItems, SectionId } from '../../data/data';
-import { KartItem } from '../../data/dataDef';
+//import { KartItem } from '../../data/dataDef';
 import Section from '../Layout/Section';
 
 const KartContent: FC = memo(() => {
