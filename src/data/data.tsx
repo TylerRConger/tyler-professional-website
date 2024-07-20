@@ -427,7 +427,7 @@ export const kartProjectItems: KartItem[] = [
   {
     title: 'Overview',
     description:
-      'I was part of a team, of 5, that worked on building a self driving go-kart from the ground up for the Purdue ev-Grand Prix. I got to cover a lot of ground and learn many new skills and utilize new technologies. While I worked on all aspects of the Kart, from hardware to software, I mainly focused on the computer vision system and surrounding machine learning algorithms. Working on both the LiDAR system and regular view cameras for object detection.',
+      'I was part of a team, of 5, that worked on building a self driving go-kart from the ground up for the Purdue ev-Grand Prix. I got to cover a lot of ground and learn many new skills and utilize new technologies. While I worked on all aspects of the Kart, from hardware to software, I mainly focused on the computer vision system and surrounding machine learning algorithms. Working on both the LiDAR system and regular view cameras for object detection. We also utilized immitation learning with an experienced driver in the kart to create large reinforcement learning datasets allowing for better racing line and track detection.',
     image: kartProjectImage,
   },
   {
@@ -445,7 +445,7 @@ export const kartProjectItems: KartItem[] = [
   {
     title: 'LiDAR Data',
     description:
-      'This project involves building a fully autonomous vehicle for the evGrand Prix, a collegiate competition. The student team constructed all hardware, including the vehicle structure, propulsion, and electrical wiring.',
+      'In addition to working with the real vision cameras I also worked extensively with the LiDAR camera. Our system utilized both a Velodyne VLP 16  Puck and a VLP 32C Ultra Puck, which collected hundreds of thousands of datapoints every second giving location and distance information, utilizing Python. This information as published with a ROS node in Python. Then this data was utilized to identify the boundaries of the roadway as well as the exact distance between the kart and the boundaries, making sure that the planned path fell within these boundaries and continuing on a projected course. ',
     image: VelodyneLidarBox,
   },
 
