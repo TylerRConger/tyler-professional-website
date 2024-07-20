@@ -23,14 +23,14 @@ import meetMePic from '../images/meetMeImage.jpg';
 import { About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem, KartItem } from './dataDef';
 
 
-import FrontFacing from '../images/kart_images/FrontFacingKart.jpg';
-import BackFacing from '../images/kart_images/BackFacingKart.jpg';
-import KartLab from '../images/kart_images/KartLab.jpg';
+//import FrontFacing from '../images/kart_images/FrontFacingKart.jpg';
+//import BackFacing from '../images/kart_images/BackFacingKart.jpg';
+//import KartLab from '../images/kart_images/KartLab.jpg';
 import SolderingStation from '../images/kart_images/SolderingStation.jpg';
 import VelodyneLidarBox from '../images/kart_images/VelodyneLidarBox.jpg';
-import WiringRedo from '../images/kart_images/WiringRedo.jpg';
+//import WiringRedo from '../images/kart_images/WiringRedo.jpg';
 import ConeDetectedOne from '../images/kart_images/coneDetectedOne.jpg';
-import ConeDetectedTwo from '../images/kart_images/coneDetectedTwo.jpg';
+//import ConeDetectedTwo from '../images/kart_images/coneDetectedTwo.jpg';
 import KartCode from '../images/kart_images/kart_code.jpg';
 
 /**
