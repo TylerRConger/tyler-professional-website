@@ -101,3 +101,12 @@ export interface Social {
   Icon: FC<IconProps>;
   href: string;
 }
+
+/**
+ * Kart Content
+ */
+export interface KartItem {
+  title: string;
+  description: string;
+  image: string | StaticImageData;
+}

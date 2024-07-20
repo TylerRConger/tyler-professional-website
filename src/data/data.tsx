@@ -20,7 +20,18 @@ import operatingSysImage from '../images/portfolio/operatingSystem.jpg';
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
 import meetMePic from '../images/meetMeImage.jpg';
-import { About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem } from './dataDef';
+import { About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem, KartItem } from './dataDef';
+
+
+import FrontFacing from '../images/kart_images/FrontFacingKart.jpg';
+import BackFacing from '../images/kart_images/BackFacingKart.jpg';
+import KartLab from '../images/kart_images/KartLab.jpg';
+import SolderingStation from '../images/kart_images/SolderingStation.jpg';
+import VelodyneLidarBox from '../images/kart_images/VelodyneLidarBox.jpg';
+import WiringRedo from '../images/kart_images/WiringRedo.jpg';
+import ConeDetectedOne from '../images/kart_images/coneDetectedOne.jpg';
+import ConeDetectedTwo from '../images/kart_images/coneDetectedTwo.jpg';
+import KartCode from '../images/kart_images/kart_code.jpg';
 
 /**
  * Page meta data
@@ -406,4 +417,43 @@ export const socialLinks: Social[] = [
   { label: 'Github', Icon: GithubIcon, href: 'https://github.com/TylerRConger' },
   { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/tyler-conger/' },
   { label: 'Email', Icon: EnvelopeOpenIcon, href: 'mailto:Tyler-Conger@Tyler-Conger.com' },
+];
+
+
+/**
+ * KartContent items
+ */
+export const kartProjectItems: KartItem[] = [
+  {
+    title: 'Overview',
+    description:
+      'I was part of a team, of 5, that worked on building a self driving go-kart from the ground up for the Purdue ev-Grand Prix. I got to cover a lot of ground and learn many new skills and utilize new technologies. While I worked on all aspects of the Kart, from hardware to software, I mainly focused on the computer vision system and surrounding machine learning algorithms. Working on both the LiDAR system and regular view cameras for object detection.',
+    image: kartProjectImage,
+  },
+  {
+    title: 'Software Development',
+    description:
+      'The bulk of the software development occured in Python and C++ using ROS (Robot Operating System). Where each individual component was a ROS node publishing its data to be read by the system, for example all location data was written in C++ and the ROS node continually published that information, which was read by other nodes such as the path planning algorithm, utilizing the data to identify Kart position within roadway boundaries. Generally each team member worked individually creating areas of expertise, meeting throughout the week to review progress and assign task priority. ', 
+    image: KartCode,
+  },
+  {
+    title: 'Object Detection',
+    description:
+      'One of the major pieces I worked on was the computer vision aspect both on the LiDAR camera and real vision cameras. I trained a machine learning algorithm using YOLOv4 to detect cones (potential obstacle and roadway bounds identifiers) using a large variety of images. Then using OpenCV I was able to read the video stream, identify the cones which represented the roadway boundaries this information was then published via a ROS node where the path planner used this information to navigate the course by pathing between the closest left most cone and closest right most cone. ',
+    image: ConeDetectedOne,
+  },
+  {
+    title: 'LiDAR Data',
+    description:
+      'This project involves building a fully autonomous vehicle for the evGrand Prix, a collegiate competition. The student team constructed all hardware, including the vehicle structure, propulsion, and electrical wiring.',
+    image: VelodyneLidarBox,
+  },
+
+  {
+    title: 'Hardware Development',
+    description:
+      'Coming in to this project I knew very little about the electrical and physical requirements that would be associated with completion, but I was able to learn from some more experienced team members and develop a series of new skills. First and foremost, I learned to solder which became an important piece as we built and rebuilt the kart along with rewiring each computer box to the batteries. I also was intregral to planning the layout of the LiDAR camera mounting on 80/20 bars in order to allow for an infinitely adjustable setup, allowing us to test different mounting positions and angles. ',
+    image: SolderingStation,
+  },
+
 ];
