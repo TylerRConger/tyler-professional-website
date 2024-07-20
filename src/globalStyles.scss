@@ -83,3 +83,36 @@ li:hover #hide {
   margin: 8%;
 }
 
+.project-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.text {
+  flex: 1;
+  padding: 10px;
+  color:#fafafa;
+}
+
+.image {
+  flex: 1;
+  padding: 10px;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
