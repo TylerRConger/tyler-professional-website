@@ -20,7 +20,9 @@ import operatingSysImage from '../images/portfolio/operatingSystem.jpg';
 import wellPlateImage from '../images/portfolio/wellPlateProject.jpg';
 import profilepic from '../images/profilepic.jpg';
 import meetMePic from '../images/meetMeImage.jpg';
-import { About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem, KartItem } from './dataDef';
+import TSPImage from '../images/portfolio/TSP.jpg';
+import OSSImage from '../images/portfolio/OSS.jpg';
+import { About, Hero, HomepageMeta, PortfolioItem, SkillGroup, Social, TimelineItem, KartItem, NPItem } from './dataDef';
 
 
 //import FrontFacing from '../images/kart_images/FrontFacingKart.jpg';
@@ -32,6 +34,10 @@ import VelodyneLidarBox from '../images/kart_images/VelodyneLidarBox.jpg';
 import ConeDetectedOne from '../images/kart_images/coneDetectedOne.jpg';
 //import ConeDetectedTwo from '../images/kart_images/coneDetectedTwo.jpg';
 import KartCode from '../images/kart_images/kart_code.jpg';
+
+import PvsNP from '../images/PvsNP/PvsNP.jpg';
+import MaxClique from '../images/PvsNP/maxClique.jpg';
+
 
 /**
  * Page meta data
@@ -202,18 +208,18 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Efficient Tester Project',
-    description:
-      'Created a web application for faster COVID-19 tests that helped sciencetists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
-    url: 'https://ceias.nau.edu/capstone/projects/CS/2021/EfficientTest-F20/',
-    image: wellPlateImage,
-  },
-  {
     title: 'Crimson Autonomous Kart',
     description:
       'Creation of a fully autonomous go-kart for the Purdue Autonomous Kart Challenge. My work focused mainly on the creation of the LiDAR camera system, from capturing the data from the system to creating roadway and obstacle detection algorithms. Project is available upon request',
     url: 'Kart',
     image: kartProjectImage,
+  },
+  {
+    title: 'Efficient Tester Project',
+    description:
+      'Created a web application for faster COVID-19 tests that helped sciencetists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
+    url: 'https://ceias.nau.edu/capstone/projects/CS/2021/EfficientTest-F20/',
+    image: wellPlateImage,
   },
   {
     title: 'Chatbot Poster',
@@ -223,18 +229,17 @@ export const portfolioItems: PortfolioItem[] = [
     image: chatBotImage,
   },
   {
+    title: 'ML Wine Quality Predictor',
+    description: 'Project for data science class that involved utilizing machine learning to predict the qaulity of wine. Takes in various inputs about the wine such as type, acidity, etc to analyze and predict quality. ML created using tpot, scikit-learn, and joblib. Project is hosted on heroku and user interactable.',
+    url: 'https://wine-app-tyler-166b0a6d7290.herokuapp.com/',
+    image: wineProjectImage,
+  },
+  {
     title: 'Network Stength Project',
     description:
       'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
     url: 'Effects%20of%20Common%20Building%20Construction%20Materials%20on%20Signal.pdf',
     image: networkImage,
-  },
-  {
-    title: 'Survey of Machine Learning in Image Processing',
-    description:
-      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
-    url: 'Machine Learning in Image Processing Survey.pdf',
-    image: MLSelfDrivingImage,
   },
   {
     title: 'Operating System Simulator Project',
@@ -244,24 +249,26 @@ export const portfolioItems: PortfolioItem[] = [
     image: operatingSysImage,
   },
   {
-    title: 'ML Wine Quality Predictor',
-    description: 'Project for data science class that involved utilizing machine learning to predict the qaulity of wine. Takes in various inputs about the wine such as type, acidity, etc to analyze and predict quality. ML created using tpot, scikit-learn, and joblib. Project is hosted on heroku and user interactable.',
-    url: 'https://wine-app-tyler-166b0a6d7290.herokuapp.com/',
-    image: wineProjectImage,
-  },
-  /* 
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
+    title: 'Survey of Machine Learning in Image Processing',
+    description:
+      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
+    url: 'Machine Learning in Image Processing Survey.pdf',
+    image: MLSelfDrivingImage,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
+    title: 'P vs NP',
+    description: "My work on tackling a few NP problems such as the Traveling Salesman Problem (TSP) and Max Clique problem. Both problems are 'unsolvable' so I've implemented a brute-force, commonly used heuristic algorithm, and my own generated algorithm which was used in a University competition involving solving these problems at scale quickly",
+    url: 'PvsNP',
+    image: TSPImage,
   },
+  
+  {
+    title: 'Open Source Software',
+    description: 'Final short paper I wrote about the pros and cons of utilizing OSS. ',
+    url: 'OSS%20Paper.pdf',
+    image: OSSImage,
+  },
+  /*
   {
     title: 'Project title 10',
     description: 'Give a short description of your project here.',
@@ -456,4 +463,31 @@ export const kartProjectItems: KartItem[] = [
     image: SolderingStation,
   },
 
+];
+
+export const NPProjectItems: NPItem[] = [
+  {
+    title: 'Overview',
+    description:
+      'Overview of P vs NP space',
+    image: PvsNP,
+  },
+  {
+    title: 'TSP',
+    description:
+      'Find my paper on my TSP solution below',
+    image: TSPImage,
+  },
+  {
+    title: 'Max-Clique',
+    description:
+      'Link to Max-Clique Solution',
+    image: MaxClique,
+  },
+  {
+    title: 'Others',
+    description:
+      'info on other NP problems',
+    image: TSPImage,
+  },
 ];

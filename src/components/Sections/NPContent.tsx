@@ -3,18 +3,20 @@ import Image from 'next/image';
 import { FC, memo } from 'react';
 
 //import { isMobile } from '../../config';
-import { kartProjectItems, SectionId } from '../../data/data';
+import { NPProjectItems, SectionId } from '../../data/data';
 //import { KartItem } from '../../data/dataDef';
 import Section from '../Layout/Section';
 
-const KartContent: FC = memo(() => {
+const NPContent: FC = memo(() => {
     return (
         <Section className="bg-neutral-800" sectionId={SectionId.Skills}>
-            <h2 className="text-center text-xl font-bold text-white mb-6 -translate-y-10">Autonomous Kart Project</h2>
-
+            <h2 className="text-center text-xl font-bold text-white mb-6 -translate-y-10">NP vs P Project</h2>
+            <div className="text-white">
+                <p>My full paper on the P vs NP space discussing the problem set aswell as my implementation and approach to efficiently solving the TSP can be found <a className="underline underline-offset-4 hover:text-red-500" href="TSP%20Paper.pdf">here.</a></p>
+            </div>
 
             <div className=" w-full">
-                {kartProjectItems.map((item, index) => {
+                {NPProjectItems.map((item, index) => {
                     const { title, description, image } = item;
                     return (
                         <div className="grid grid-cols-2 gap-4 my-4" key={`${title}-${index}`}>
@@ -29,10 +31,9 @@ const KartContent: FC = memo(() => {
                     );
                 })}
             </div>
-            <iframe src="https://tyler-conger.com/Effects%20of%20Common%20Building%20Construction%20Materials%20on%20Signal.pdf" width="75%" height="500px" /> 
         </Section>
     );
 });
 
-KartContent.displayName = 'Kart Content';
-export default KartContent;
+NPContent.displayName = 'Kart Content';
+export default NPContent;

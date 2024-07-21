@@ -110,3 +110,12 @@ export interface KartItem {
   description: string;
   image: string | StaticImageData;
 }
+
+/**
+ * NP Content
+ */
+export interface NPItem {
+  title: string;
+  description: string;
+  image: string | StaticImageData;
+}
