@@ -18,7 +18,6 @@ export default function about() {
                 <h1>P vs NP</h1>
                 <NPContent />
             </div>
-            
             <Footer />
         </Page>
     )

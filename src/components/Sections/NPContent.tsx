@@ -4,6 +4,8 @@ import { FC, memo } from 'react';
 import { NPProjectItems, SectionId } from '../../data/data';
 import Section from '../Layout/Section';
 
+//import { Document } from 'react-pdf';
+
 const NPContent: FC = memo(() => {
     return (
         <Section className="bg-neutral-800" sectionId={SectionId.Skills}>
@@ -28,6 +30,7 @@ const NPContent: FC = memo(() => {
                     );
                 })}
             </div>
+            <iframe src="https://tyler-conger.com/TSP%20Paper.pdf" width="100%" height="500px" /> 
         </Section>
     );
 });
