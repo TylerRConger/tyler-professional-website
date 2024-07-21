@@ -1,18 +1,15 @@
-//import classNames from 'classnames';
 import Image from 'next/image';
 import { FC, memo } from 'react';
 
-//import { isMobile } from '../../config';
 import { NPProjectItems, SectionId } from '../../data/data';
-//import { KartItem } from '../../data/dataDef';
 import Section from '../Layout/Section';
 
 const NPContent: FC = memo(() => {
     return (
         <Section className="bg-neutral-800" sectionId={SectionId.Skills}>
-            <h2 className="text-center text-xl font-bold text-white mb-6 -translate-y-10">NP vs P Project</h2>
+            <h2 className="text-center text-xl font-bold text-white mb-6 -translate-y-6">NP vs P Project</h2>
             <div className="text-white">
-                <p>My full paper on the P vs NP space discussing the problem set aswell as my implementation and approach to efficiently solving the TSP can be found <a className="underline underline-offset-4 hover:text-red-500" href="TSP%20Paper.pdf">here.</a></p>
+                <p>My full paper on the P vs NP space discussing the problem set aswell as my implementation and approach to efficiently solving the Traveling Salesman Problem (TSP) can be found <a className="underline underline-offset-4 hover:text-red-500" href="TSP%20Paper.pdf">here.</a></p>
             </div>
 
             <div className=" w-full">
