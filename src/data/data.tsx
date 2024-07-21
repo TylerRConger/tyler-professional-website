@@ -35,6 +35,10 @@ import ConeDetectedOne from '../images/kart_images/coneDetectedOne.jpg';
 //import ConeDetectedTwo from '../images/kart_images/coneDetectedTwo.jpg';
 import KartCode from '../images/kart_images/kart_code.jpg';
 
+import PvsNP from '../images/PvsNP/PvsNP.jpg';
+import MaxClique from '../images/PvsNP/maxClique.jpg';
+
+
 /**
  * Page meta data
  */
@@ -253,7 +257,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'P vs NP',
-    description: "My work on tackling a few NP problems such as the Traveling Salesman Problem (TSP) and Max Clique problem. Both problems are \'unsolvable\' so I've implemented a brute-force, commonly used heuristic algorithm, and my own generated algorithm which was used in a University competition involving solving these problems at scale quickly",
+    description: "My work on tackling a few NP problems such as the Traveling Salesman Problem (TSP) and Max Clique problem. Both problems are 'unsolvable' so I've implemented a brute-force, commonly used heuristic algorithm, and my own generated algorithm which was used in a University competition involving solving these problems at scale quickly",
     url: 'PvsNP',
     image: TSPImage,
   },
@@ -465,7 +469,25 @@ export const NPProjectItems: NPItem[] = [
   {
     title: 'Overview',
     description:
+      'Overview of P vs NP space',
+    image: PvsNP,
+  },
+  {
+    title: 'TSP',
+    description:
       'Find my paper on my TSP solution below',
+    image: TSPImage,
+  },
+  {
+    title: 'Max-Clique',
+    description:
+      'Link to Max-Clique Solution',
+    image: MaxClique,
+  },
+  {
+    title: 'Others',
+    description:
+      'info on other NP problems',
     image: TSPImage,
   },
 ];

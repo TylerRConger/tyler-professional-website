@@ -29,6 +29,7 @@ const KartContent: FC = memo(() => {
                     );
                 })}
             </div>
+            <iframe src="https://tyler-conger.com/Effects%20of%20Common%20Building%20Construction%20Materials%20on%20Signal.pdf" width="75%" height="500px" /> 
         </Section>
     );
 });
