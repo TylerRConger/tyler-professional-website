@@ -252,7 +252,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Survey of Machine Learning in Image Processing',
     description:
-      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different alogrithms and there comperable performance as well as what is used in individual situations with challenges of each.',
+      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different algorithms and there comperable performance as well as what is used in individual situations with challenges of each.',
     url: 'Machine Learning in Image Processing Survey.pdf',
     image: MLSelfDrivingImage,
   },
@@ -395,9 +395,9 @@ export const experience: TimelineItem[] = [
     title: (<p>Teaching Assistant</p>),
     content: (
       <ul className='list-disc'>
-        <li>Administered lab material material in a lab-based classroom setting on a weekly basis for 3 seperate computer science lab classes</li>
+        <li>Administered lab material material in a lab-based classroom setting on a weekly basis for 3 separate computer science lab classes</li>
         <li>Held a weekly office hours where students would ask questions pertaining to data structures, MATLAB, and Computer Science 2 questions </li>
-        <li>Deep understanding of Data Structures and Alogrithms to grade and fully understand student projects</li>
+        <li>Deep understanding of Data Structures and Algorithms to grade and fully understand student projects</li>
       </ul>
     ),
   },
