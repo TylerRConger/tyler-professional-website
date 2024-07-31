@@ -295,7 +295,7 @@ export const education: TimelineItem[] = [
     content: (
       <div>
         <p>
-          During my time at the University of Alabama I spent my time working with organizations such as the Association for Computing Machiner (ACM) as well as
+          During my time at the University of Alabama I spent my time working with organizations such as the Association for Computing Machinery (ACM) as well as
           working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
         </p>
         <br></br>
