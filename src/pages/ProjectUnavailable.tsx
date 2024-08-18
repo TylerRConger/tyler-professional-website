@@ -3,7 +3,7 @@ import dynamic from 'next/dynamic';
 
 import Page from '../components/Layout/Page';
 import Footer from '../components/Sections/Footer';
-import NPContent from '../components/Sections/NPContent';
+import ProjectRequest from '../components/Sections/ProjectRequestContent';
 
 import { homePageMeta } from '../data/data';
 
@@ -11,13 +11,12 @@ const Header = dynamic(() => import('../components/Sections/Header'), { ssr: fal
 
 export default function about() {
     const { description } = homePageMeta;
-    var title = "P vs NP - ".concat(homePageMeta.title);
+    var title = "Project Unavailable - ".concat(homePageMeta.title);
     return (
         <Page description={description} title={title}>
             <Header />
             <div className="project-page">
-                <h1>P vs NP</h1>
-                <NPContent />
+                <ProjectRequest />
             </div>
             <Footer />
         </Page>

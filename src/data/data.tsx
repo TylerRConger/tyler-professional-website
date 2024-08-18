@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Graduate of the University of Alabama with my Masters in Computer Science, I am looking for new
+        Graduate from The University of Alabama with my Masters in Computer Science, I am looking for new
         opportunities as a Software Developer.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
@@ -101,7 +101,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `A graduate student at the University of Alabama, where I spent time studying deep-learning algorithms, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
+  description: `Current Software Engineer at Textron Systems, previously, a graduate student at The University of Alabama, where I spent time studying deep-learning algorithms, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
   aboutItems: [
     { label: 'Location', text: (<p>Baltimore, MD</p>), Icon: MapPinIcon },
     {
@@ -109,7 +109,7 @@ export const aboutData: About = {
       text: (<p>Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development</p>),
       Icon: SparklesIcon,
     },
-    { label: 'Schools', text: (<p>University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon },
+    { label: 'Schools', text: (<p>The University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon },
     { label: 'Employment', text: (<p>Software Engineer at Textron Systems</p>), Icon: BuildingOffice2Icon },
   ],
 };
@@ -218,25 +218,25 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Efficient Tester Project',
     description:
-      'Created a web application for faster COVID-19 tests that helped sciencetists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
+      'Created a web application for faster COVID-19 tests that helped biologists using the sample pooling methodology. Users have the ability to join and create teams, create different tests and track their work digitally between testing cycles.',
     url: 'https://ceias.nau.edu/capstone/projects/CS/2021/EfficientTest-F20/',
     image: wellPlateImage,
   },
   {
     title: 'Chatbot Poster',
     description:
-      'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are prefered by end users.',
-    url: 'Chatbot User Exerpience Symposium Poster 4.17.2020.pdf',
+      'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are preferred by end users.',
+    url: 'Chatbot User Experience Symposium Poster 4.17.2020.pdf',
     image: chatBotImage,
   },
   {
     title: 'ML Wine Quality Predictor',
-    description: 'Project for data science class that involved utilizing machine learning to predict the qaulity of wine. Takes in various inputs about the wine such as type, acidity, etc to analyze and predict quality. ML created using tpot, scikit-learn, and joblib. Project is hosted on heroku and user interactable.',
-    url: 'https://wine-app-tyler-166b0a6d7290.herokuapp.com/',
+    description: 'Project for data science class that involved utilizing machine learning to predict the quality of wine. Takes in various inputs about the wine such as type, acidity, etc to analyze and predict quality. ML created using tpot, scikit-learn, and joblib.',
+    url: 'ProjectUnavailable',
     image: wineProjectImage,
   },
   {
-    title: 'Network Stength Project',
+    title: 'Network Strength Project',
     description:
       'Research paper where signals ability to propagate through various different building materials. Testing various networking protocols as well as different commonly used household building materials in an effort to study what materials may be better or limiting to wireless networking activity.',
     url: 'Effects%20of%20Common%20Building%20Construction%20Materials%20on%20Signal.pdf',
@@ -245,14 +245,14 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Operating System Simulator Project',
     description:
-      'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project and design philosphy is availabe upon request',
-    url: '',
+      'Semester long project where we were tasked with designing and implementing an operating system. The project is written from the ground up in C using only the implemented string library. Project and design philosophy is available upon request',
+    url: 'ProjectUnavailable',
     image: operatingSysImage,
   },
   {
     title: 'Survey of Machine Learning in Image Processing',
     description:
-      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different algorithms and there comperable performance as well as what is used in individual situations with challenges of each.',
+      'An overview of the ways different machine learning algorithms are used in image processing, covering topics of OCR, Autonomous Vehicles, and Facial Recognition. High level coverage of different algorithms and there comparable performance as well as what is used in individual situations with challenges of each.',
     url: 'Machine Learning in Image Processing Survey.pdf',
     image: MLSelfDrivingImage,
   },
@@ -290,12 +290,12 @@ export const portfolioItems: PortfolioItem[] = [
 export const education: TimelineItem[] = [
   {
     date: 'August 2022 - May 2024',
-    location: (<p className="flex-1 text-sm font-medium italic sm:flex-none">University of Alabama</p>),
+    location: (<p className="flex-1 text-sm font-medium italic sm:flex-none">The University of Alabama</p>),
     title: (<a className="hover:underline underline-offset-4 hover:text-red-500" href="https://catalog.ua.edu/graduate/engineering/computer-science/ms/#text" target='_blank'>Master of Science in Computer Science</a>),
     content: (
       <div>
         <p>
-          During my time at the University of Alabama I spent my time working with organizations such as the Association for Computing Machiner (ACM) as well as
+          During my time at The University of Alabama I spent my time working with organizations such as the Association for Computing Machinery (ACM) as well as
           working on a fully autonomous Kart project to compete in the Purdue autonomous kart challenge.
         </p>
         <br></br>
@@ -435,13 +435,13 @@ export const kartProjectItems: KartItem[] = [
   {
     title: 'Overview',
     description:
-      'I was part of a team, of 5, that worked on building a self driving go-kart from the ground up for the Purdue ev-Grand Prix. I got to cover a lot of ground and learn many new skills and utilize new technologies. While I worked on all aspects of the Kart, from hardware to software, I mainly focused on the computer vision system and surrounding machine learning algorithms. Working on both the LiDAR system and regular view cameras for object detection. We also utilized immitation learning with an experienced driver in the kart to create large reinforcement learning datasets allowing for better racing line and track detection.',
+      'I was part of a team, of 5, that worked on building a self driving go-kart from the ground up for the Purdue ev-Grand Prix. I got to cover a lot of ground and learn many new skills and utilize new technologies. While I worked on all aspects of the Kart, from hardware to software, I mainly focused on the computer vision system and surrounding machine learning algorithms. Working on both the LiDAR system and regular view cameras for object detection. We also utilized imitation learning with an experienced driver in the kart to create large reinforcement learning datasets allowing for better racing line and track detection.',
     image: kartProjectImage,
   },
   {
     title: 'Software Development',
     description:
-      'The bulk of the software development occured in Python and C++ using ROS (Robot Operating System). Where each individual component was a ROS node publishing its data to be read by the system, for example all location data was written in C++ and the ROS node continually published that information, which was read by other nodes such as the path planning algorithm, utilizing the data to identify Kart position within roadway boundaries. Generally each team member worked individually creating areas of expertise, meeting throughout the week to review progress and assign task priority. ', 
+      'The bulk of the software development occurred in Python and C++ using ROS (Robot Operating System). Where each individual component was a ROS node publishing its data to be read by the system, for example all location data was written in C++ and the ROS node continually published that information, which was read by other nodes such as the path planning algorithm, utilizing the data to identify Kart position within roadway boundaries. Generally each team member worked individually creating areas of expertise, meeting throughout the week to review progress and assign task priority. ', 
     image: KartCode,
   },
   {
@@ -460,7 +460,7 @@ export const kartProjectItems: KartItem[] = [
   {
     title: 'Hardware Development',
     description:
-      'Coming in to this project I knew very little about the electrical and physical requirements that would be associated with completion, but I was able to learn from some more experienced team members and develop a series of new skills. First and foremost, I learned to solder which became an important piece as we built and rebuilt the kart along with rewiring each computer box to the batteries. I also was intregral to planning the layout of the LiDAR camera mounting on 80/20 bars in order to allow for an infinitely adjustable setup, allowing us to test different mounting positions and angles. ',
+      'Coming in to this project I knew very little about the electrical and physical requirements that would be associated with completion, but I was able to learn from some more experienced team members and develop a series of new skills. First and foremost, I learned to solder which became an important piece as we built and rebuilt the kart along with rewiring each computer box to the batteries. I also was integral to planning the layout of the LiDAR camera mounting on 80/20 bars in order to allow for an infinitely adjustable setup, allowing us to test different mounting positions and angles. ',
     image: SolderingStation,
   },
 

@@ -12,8 +12,10 @@ import { homePageMeta } from '../data/data';
 const Header = dynamic(() => import('../components/Sections/Header'), { ssr: false });
 
 export default function about() {
-    const { title, description } = homePageMeta;
+    const { description } = homePageMeta;
+    var title = "Kart - ".concat(homePageMeta.title);
     return (
+        
         <Page description={description} title={title}>
             <Header />
             <div className="project-page">
