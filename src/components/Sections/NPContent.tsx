@@ -11,7 +11,7 @@ const NPContent: FC = memo(() => {
         <Section className="bg-neutral-800" sectionId={SectionId.Skills}>
             <h2 className="text-center text-xl font-bold text-white mb-6 -translate-y-6">NP vs P Project</h2>
             <div className="text-white">
-                <p>My full paper on the P vs NP space discussing the problem set aswell as my implementation and approach to efficiently solving the Traveling Salesman Problem (TSP) can be found <a className="underline underline-offset-4 hover:text-red-500" href="TSP%20Paper.pdf">here.</a></p>
+                <p>My full paper on the P vs NP space discussing the problem set as well as my implementation and approach to efficiently solving the Traveling Salesman Problem (TSP) can be found <a className="underline underline-offset-4 text-red-400" href="TSP%20Paper.pdf">here</a> or below.</p>
             </div>
 
             <div className=" w-full">
@@ -35,5 +35,5 @@ const NPContent: FC = memo(() => {
     );
 });
 
-NPContent.displayName = 'Kart Content';
+NPContent.displayName = 'NP Content';
 export default NPContent;
