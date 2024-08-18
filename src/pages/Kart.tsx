@@ -13,7 +13,7 @@ const Header = dynamic(() => import('../components/Sections/Header'), { ssr: fal
 
 export default function about() {
     const { description } = homePageMeta;
-    var title = "Kart - ".concat(homePageMeta.title);
+    const title = "Kart - ".concat(homePageMeta.title);
     return (
         
         <Page description={description} title={title}>
