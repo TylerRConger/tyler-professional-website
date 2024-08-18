@@ -11,7 +11,7 @@ const Header = dynamic(() => import('../components/Sections/Header'), { ssr: fal
 
 export default function about() {
     const { description } = homePageMeta;
-    var title = "Project Unavailable - ".concat(homePageMeta.title);
+    const title = "Project Unavailable - ".concat(homePageMeta.title);
     return (
         <Page description={description} title={title}>
             <Header />
