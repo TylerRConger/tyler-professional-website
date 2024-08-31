@@ -73,12 +73,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        Graduate from The University of Alabama with my Masters in Computer Science, I am looking for new
-        opportunities as a Software Developer.
+      Software Engineer at Textron Systems specializing in radio frequency-based defense projects. I hold both a Master's and Bachelor's degree in Computer Science. 
+      I spearheaded the development of a self-driving vehicle from the ground up, leveraging modern tools, Machine Learning, and Computer Vision. 
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I have previous experience as a full stack web developer with Marsh McLennan, a Fortune 500 company. In my studies I have worked as a
-        researcher studying chatbot linguistic usage, autonomous vehicles, machine learning, and computer networking.
+      Previously, I gained experience as a Full Stack Web Developer at Marsh McLennan, a Fortune 500 company. 
+      My academic research has focused on chatbot linguistics, autonomous vehicles, machine learning, and computer networking. 
       </p>
     </>
   ),
@@ -91,6 +91,11 @@ export const heroData: Hero = {
     {
       href: `mailto:Tyler-Conger@Tyler-Conger.com`,
       text: 'Contact',
+      primary: false,
+    },
+    {
+      href: 'Blog',
+      text: "Blog",
       primary: false,
     },
   ],
@@ -226,7 +231,7 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Chatbot Poster',
     description:
       'Analysis of some of my work in studying what types of language users prefer when interacting with chatbots. Studied specifically human curated text vs AI tweaked responses to understand what linguistic characteristics are preferred by end users.',
-    url: 'Chatbot User Experience Symposium Poster 4.17.2020.pdf',
+    url: 'Chatbot-User-Experience-Symposium-Poster.pdf',
     image: chatBotImage,
   },
   {

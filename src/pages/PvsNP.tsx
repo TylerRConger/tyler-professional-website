@@ -16,7 +16,6 @@ export default function about() {
         <Page description={description} title={title}>
             <Header />
             <div className="project-page">
-                <h1>P vs NP</h1>
                 <NPContent />
             </div>
             <Footer />
