@@ -55,7 +55,7 @@ module.exports = {
           caretWidth: '0px',
         },
         introCont: {
-          words: ["student", "developer", "engineer", "leader", "collaborator", "team player", "researcher", "innovator"],
+          words: ["engineer", "learner", "developer", "leader", "collaborator", "team player", "researcher", "innovator", "strategist", "mentor", "self-starter", "thinker", ],
           delay: 5.5,
           repeat: -1,
           writeSpeed: .25,

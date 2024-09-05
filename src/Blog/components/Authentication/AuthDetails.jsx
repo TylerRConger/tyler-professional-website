@@ -29,7 +29,7 @@ const AuthDetails = () => {
                 {authUser ? 
                 <div>
                 <p>{`Signed in as ${authUser.email}`}</p>
-                <button onClick={userSignOut}>Sign Out</button>
+                <button onClick={userSignOut} className="flex gap-x-2 rounded-full border-2 bg-none px-4 py-2 text-sm font-medium text-white ring-offset-gray-700/80 hover:bg-gray-700/80 hover:border-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 sm:text-base">Sign Out</button>
             </div> :
                 <div className="">
                     <p>Signed Out</p>

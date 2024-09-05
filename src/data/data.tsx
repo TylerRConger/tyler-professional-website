@@ -52,7 +52,7 @@ export const homePageMeta: HomepageMeta = {
  * Section definition
  */
 export const SectionId = {
-  Hero: 'hero',
+  Hero: 'home',
   About: 'about',
   Portfolio: 'portfolio',
   Resume: 'resume',
@@ -358,6 +358,17 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+  {
+    date: 'July 2024 - Present',
+    location: (<p>Textron Systems | Baltimore, MD</p>),
+    title: (<p>Software Engineer</p>),
+    content: (
+      <div>
+        <ul className='list-disc'>
+        </ul>
+      </div>
+    ),
+  },
   {
     date: 'July 2021 - August 2022',
     location: (<p>Marsh McLennan | Phoenix, AZ</p>),
