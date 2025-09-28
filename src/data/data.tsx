@@ -365,6 +365,7 @@ export const experience: TimelineItem[] = [
     content: (
       <div>
         <ul className='list-disc'>
+          <li>Development in C++ and C# on the <a href="https://www.textronsystems.com/products/a2pats-family-products">A2PATS</a> System</li>
         </ul>
       </div>
     ),
