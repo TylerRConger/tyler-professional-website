@@ -106,16 +106,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Current Software Engineer at Textron Systems, previously, a graduate student at The University of Alabama, where I spent time studying deep-learning algorithms, artificial intelligence, data science, and was part of a team to create a self driving go-kart.`,
+  description: `Currently working as a software engineer in the Washington, DC area. Previous experience includes Software Engineer at Textron Systems working on Radio Frequency (RF) based systems, as well as full stack development at Marsh McLennan. Research interests are Aritifical Inteligence, Reinforcement Learning techniques, and data science topics.`,
   aboutItems: [
-    { label: 'Location', text: (<p>Baltimore, MD</p>), Icon: MapPinIcon },
+    { label: 'Location', text: (<p>Washington, DC</p>), Icon: MapPinIcon },
     {
       label: 'Interests',
       text: (<p>Autonomous Vehicles, Artificial Intelligence, Data Science, Full-stack Development</p>),
       Icon: SparklesIcon,
     },
     { label: 'Schools', text: (<p>The University of Alabama<br></br>Northern Arizona University</p>), Icon: AcademicCapIcon },
-    { label: 'Employment', text: (<p>Software Engineer at Textron Systems</p>), Icon: BuildingOffice2Icon },
+    { label: 'Employment', text: (<p>Software Engineer</p>), Icon: BuildingOffice2Icon },
   ],
 };
 
